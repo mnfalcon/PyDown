@@ -1,16 +1,21 @@
-from PySimpleGUI.PySimpleGUI import ProgressBar
 from pytube import YouTube, Playlist
 import os
-import moviepy.editor
 import PySimpleGUI as sg
 import logging
 
+# TO DO: 
+# - Custom Logging
+# - String handling for weird or special characters DONE
+# - Save log files for 30 days
+# - Download History
+
 sg.theme('DarkAmber')
 layout = [
-    [sg.Text('Output Path: '), sg.InputText(key='outputDisplay', default_text='downloads'), sg.FolderBrowse(key='outputDir', target='outputDisplay')],
-    [sg.Text('YouTube video URL: '), sg.InputText()], 
-    [sg.Button('Download MP3'),sg.Button('Download Video'),sg.Cancel(button_text='Exit')], 
-    [sg.Output(size=(80,10), key='log')]]
+    [sg.Text('Output Path: '), sg.InputText(key='outputDisplay', default_text='downloads'), sg.FolderBrowse(key='outputDir', target='outputDisplay'), sg.Button('Reset Output Path',key='Reset')],
+    [sg.Text('YouTube video URL: '), sg.InputText(key='videoURL'), sg.Button('Clear URL'), sg.Text('Output Name (optional)', tooltip='Use this if there are any weird characters'), sg.InputText(key='custom_name')], 
+    [sg.Button('Download MP3'),sg.Button('Download Video'),sg.Cancel(button_text='Exit'), sg.Button(button_text='Toggle Debug Console', key='debug')],
+    [sg.Output(size=(141,10), key='log', visible=True)]
+    ]
 window = sg.Window('PyDown', layout)
 
 class Handler(logging.StreamHandler):
@@ -50,52 +55,69 @@ def setOutput(dir):
         outputPath = dir
     return outputPath
 
-def downloadMP3(url, dir='undefined'):
+def downloadTest(url, dir='undefined'):
+
     outputPath = setOutput(dir)
-    # Using pytube to get lowest resolution video
     yt = YouTube(url)
-    yt.streams.get_lowest_resolution().download(output_path=outputPath, filename = yt.title, max_retries=10) #not using .get_audio_only() because moviepy would throw video_fps error when converting
-    print('YouTube video audio downloaded successfully')
-    filler = '*'*80
+    yt.streams.get_lowest_resolution().download(output_path='tests', filename='testing', max_retries=10)
+    out_file = 'tests\\' + 'testing.mp4'
+    base, ext = os.path.splitext(out_file)
+    new_file = base + '.mp3'
+    os.rename(out_file, new_file)
+    print('Test Completed.')
+
+def downloadMP3(url, dir='undefined', outputName=''):
+    outputPath = setOutput(dir)
+    yt = YouTube(url)
+    if outputName != '':
+        videoTitle = outputName
+    else:
+        videoTitle = yt.title
+    #removing all special characters not allowed when naming windows files
+    file_name = videoTitle.translate({ord(i): None for i in ':.\\#%+=\'\"&{@};<>$*!?`|/'})
+
+    yt.streams.get_audio_only().download(output_path=outputPath, filename = 'temp_file', max_retries=10)
+    print('YouTube audio downloaded successfully.')
     
-    mp4File = outputPath + '\\' + yt.title + '.mp4'
-    mp3File = outputPath + '\\' + yt.title + '.mp3'
-
-    # Using moviepy to get the mp4 file and convert it to mp3
-    videoClip = moviepy.editor.VideoFileClip(mp4File)
-    audioclip = videoClip.audio
-    audioclip.write_audiofile(mp3File)
-    print('\n', filler, '\nVIDEO FILE CONVERTED TO MP3\n', filler)
-
-    # closing and deleting the mp4 file
-    audioclip.close()
-    videoClip.close()
-    os.remove(mp4File)
-    print('\n', filler, '\nMP4 FILE DELETED. Your song |', yt.title, '| is ready :)\n', filler)
+    mp4File = outputPath + '/' + 'temp_file' + '.mp4'
+    mp3File = outputPath + '/' + file_name + '.mp3'
+    os.rename(mp4File, mp3File)
+    print('File renamed successfully.')
 
 def downloadVideo(url, dir='undefined'):
     outputPath = setOutput(dir)
     yt = YouTube(videoURL)
     yt.streams.get_highest_resolution().download(output_path=outputPath, filename=yt.title, max_retries=10)
-    print('YouTube video downloaded successfully')
+    print('YouTube video downloaded successfully.')
+
+def toggleConsole():
+    if window['log'].visible == False:
+        window['log'].update(visible=True)
+    else:
+        window['log'].update(visible=False)
 
 while True:
     event, values = window.read(timeout=10)
     if event == sg.WIN_CLOSED:
         break
     try:
-        videoURL = values[0]
+        videoURL = values['videoURL']
         if event == 'Download MP3':
             outputPath = values['outputDisplay']
-            downloadMP3(videoURL, outputPath)
+            downloadMP3(videoURL, outputPath, values['custom_name'])
         elif event == 'Download Video':
             outputPath = values['outputDisplay']
             downloadVideo(videoURL, outputPath)
         elif event == 'Exit':
             break
+        elif event == 'debug':
+            toggleConsole()
         elif event == 'Run':
             logging.info('Running...')
-            
+        elif event == 'Clear URL':
+            window['videoURL']('')
+        elif event == 'Reset':
+            window['outputDisplay']('downloads')        
     except Exception as exc:
         print(exc)      
 window.close()

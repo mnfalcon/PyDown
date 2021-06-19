@@ -14,7 +14,7 @@ if sys.platform == "win32":
     base = "Win32GUI"
 
 setup(name="PyDown",
-      version="1.1",
+      version="1.2",
       description="Python Video-to-MP3 Downloader",
       options={"build_exe": build_exe_options},
       executables=[Executable(script="main.py", base=base)])
