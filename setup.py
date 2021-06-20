@@ -5,7 +5,7 @@ from cx_Freeze import setup, Executable
 additional_modules = []
 
 build_exe_options = {"includes": additional_modules,
-                     "packages": [ "pytube", "logging", "PySimpleGUI", "moviepy", "os"],
+                     "packages": [ "pytube", "logging", "PySimpleGUI", "os"],
                      "excludes": [],
                      "include_files": []}
 

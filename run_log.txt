@@ -1,0 +1,2863 @@
+pytube.helpers, 2021-06-19 21:01:28,750, [DEBUG], matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract, 2021-06-19 21:01:29,713, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:01:29,714, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:01:29,714, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:01:29,782, [DEBUG], applying descrambler
+pytube.extract, 2021-06-19 21:01:29,782, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:01:29,783, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:01:29,783, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:01:29,805, [DEBUG], finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher, 2021-06-19 21:01:30,828, [DEBUG], finding initial function name
+pytube.cipher, 2021-06-19 21:01:30,961, [DEBUG], finished regex search, matched: (?:\b|[^a-zA-Z0-9$])(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher, 2021-06-19 21:01:30,961, [DEBUG], getting transform plan
+pytube.helpers, 2021-06-19 21:01:30,961, [DEBUG], matched regex search: qB=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher, 2021-06-19 21:01:30,962, [DEBUG], getting transform object
+pytube.cipher, 2021-06-19 21:01:30,963, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,963, [DEBUG], applied transform function
+output: 2OAOq0QJ8wRQIgQRo67L1NLiOyALMTn7GslUw24A7hQ=nLHDVZCJF24A8CIQDma9DoDVDO08F1uXXgCaUfamtnND6qtHkFZPB1MCbU7Q=K
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,963, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgQRo67L1NLiOy2LMTn7GslUw24A7hQ=nLHDVZCJF24A8CIQDma9DoDVDO08F1uXXgCaUfamtnND6qtHkFZPB1MCbU7Q=K
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: K=Q7UbCM1BPZFkHtq6DNntmafUaCgXXu1F80ODVDoD9amDQIC8A42FJCZVDHLn=Qh7A42wUlsG7nTML2yOiLN1L76oRQgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: ==Q7UbCM1BPZFkHtq6DNntmafUaCgXXu1F80ODVDoD9amDQIC8A42FJCZVDHLnKQh7A42wUlsG7nTML2yOiLN1L76oRQgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgQRo67L1NLiOy2LMTn7GslUw24A7hQKnLHDVZCJF24A8CIQDma9DoDVDO08F1uXXgCaUfamtnND6qtHkFZPB1MCbU7Q==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgQRo67L1NLiOy2LMTn7GslUw24A7hQKnLHDVZCJF24A8CIQDma9DoDVDO08F1uXXgCaUfamtnND6qtHkFZPB1MCbU7Q==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,964, [DEBUG], finished descrambling signature for itag=18
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: aOAOq0QJ8wRQIhANtSKZL4W_y6ABFzav_gAsW83MH70=rXPp7UQ3s-LpgkAiA_oyEXmyyGS3SfwiV2KCxC2XyZYAv_OJaMsM6-rlJ0ZA=y
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANtSKZL4W_y6aBFzav_gAsW83MH70=rXPp7UQ3s-LpgkAiA_oyEXmyyGS3SfwiV2KCxC2XyZYAv_OJaMsM6-rlJ0ZA=y
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: y=AZ0Jlr-6MsMaJO_vAYZyX2CxCK2ViwfS3SGyymXEyo_AiAkgpL-s3QU7pPXr=07HM38WsAg_vazFBa6y_W4LZKStNAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: ==AZ0Jlr-6MsMaJO_vAYZyX2CxCK2ViwfS3SGyymXEyo_AiAkgpL-s3QU7pPXry07HM38WsAg_vazFBa6y_W4LZKStNAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANtSKZL4W_y6aBFzav_gAsW83MH70yrXPp7UQ3s-LpgkAiA_oyEXmyyGS3SfwiV2KCxC2XyZYAv_OJaMsM6-rlJ0ZA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,964, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhANtSKZL4W_y6aBFzav_gAsW83MH70yrXPp7UQ3s-LpgkAiA_oyEXmyyGS3SfwiV2KCxC2XyZYAv_OJaMsM6-rlJ0ZA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,965, [DEBUG], finished descrambling signature for itag=313
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRQIhAPwCP8aY86BOAllkvpdTuH9_SFcr6=itnreqn8-Qbz_dAiANq0T7rWbL_rYZWFPWBJXjLhq0IltnFGwJSDxbW4nOHg=E
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAPwCP8aY86BO4llkvpdTuH9_SFcr6=itnreqn8-Qbz_dAiANq0T7rWbL_rYZWFPWBJXjLhq0IltnFGwJSDxbW4nOHg=E
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: E=gHOn4WbxDSJwGFntlI0qhLjXJBWPFWZYr_LbWr7T0qNAiAd_zbQ-8nqernti=6rcFS_9HuTdpvkll4OB68Ya8PCwPAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: ==gHOn4WbxDSJwGFntlI0qhLjXJBWPFWZYr_LbWr7T0qNAiAd_zbQ-8nqerntiE6rcFS_9HuTdpvkll4OB68Ya8PCwPAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAPwCP8aY86BO4llkvpdTuH9_SFcr6Eitnreqn8-Qbz_dAiANq0T7rWbL_rYZWFPWBJXjLhq0IltnFGwJSDxbW4nOHg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAPwCP8aY86BO4llkvpdTuH9_SFcr6Eitnreqn8-Qbz_dAiANq0T7rWbL_rYZWFPWBJXjLhq0IltnFGwJSDxbW4nOHg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,965, [DEBUG], finished descrambling signature for itag=271
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: ZOAOq0QJ8wRQIhANTYqbHv8oxgAEovhn6H4gFyJEgm5=AgUePVkVocYZspAiBhc1duay2keGbz_jAlb5Sc4FFafG66PYOCeMSSUGAZwQ=A
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANTYqbHv8oxgZEovhn6H4gFyJEgm5=AgUePVkVocYZspAiBhc1duay2keGbz_jAlb5Sc4FFafG66PYOCeMSSUGAZwQ=A
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: A=QwZAGUSSMeCOYP66GfaFF4cS5blAj_zbGek2yaud1chBiApsZYcoVkVPeUgA=5mgEJyFg4H6nhvoEZgxo8vHbqYTNAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: ==QwZAGUSSMeCOYP66GfaFF4cS5blAj_zbGek2yaud1chBiApsZYcoVkVPeUgAA5mgEJyFg4H6nhvoEZgxo8vHbqYTNAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANTYqbHv8oxgZEovhn6H4gFyJEgm5AAgUePVkVocYZspAiBhc1duay2keGbz_jAlb5Sc4FFafG66PYOCeMSSUGAZwQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhANTYqbHv8oxgZEovhn6H4gFyJEgm5AAgUePVkVocYZspAiBhc1duay2keGbz_jAlb5Sc4FFafG66PYOCeMSSUGAZwQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,965, [DEBUG], finished descrambling signature for itag=137
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgbE8PDokJCLs3AsuGmw7suF6ULiv4p=t-rYJfDPbZGbQCIQDjGf_Q5DuPcxx3l2e7djUL2DgHc1l5UQB4agHuQnwwow=3
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgbE8PDokJCLs3AsuGmw7suF6ULiv4p=t-rYJfDPbZGbQCIQDjGf_Q5DuPcxx3l2e7djUL2DgHc1l5UQB4agHuQnwwow=3
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,965, [DEBUG], applied transform function
+output: 3=wowwnQuHga4BQU5l1cHgD2LUjd7e2l3xxcPuD5Q_fGjDQICQbGZbPDfJYr-t=p4viLU6Fus7wmGusA3sLCJkoDP8EbgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: ==wowwnQuHga4BQU5l1cHgD2LUjd7e2l3xxcPuD5Q_fGjDQICQbGZbPDfJYr-t3p4viLU6Fus7wmGusA3sLCJkoDP8EbgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgbE8PDokJCLs3AsuGmw7suF6ULiv4p3t-rYJfDPbZGbQCIQDjGf_Q5DuPcxx3l2e7djUL2DgHc1l5UQB4agHuQnwwow==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgbE8PDokJCLs3AsuGmw7suF6ULiv4p3t-rYJfDPbZGbQCIQDjGf_Q5DuPcxx3l2e7djUL2DgHc1l5UQB4agHuQnwwow==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,966, [DEBUG], finished descrambling signature for itag=248
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: oOAOq0QJ8wRgIhAKFDJwCrBabbAfPcaXhWG8TUSqRoD=3sr5lEj1nFin6CAiEAxVOcjVkDY_yFAsdkjYVKugYwZ_2GCHKbWsvL38OYBUc4
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKFDJwCrBabbofPcaXhWG8TUSqRoD=3sr5lEj1nFin6CAiEAxVOcjVkDY_yFAsdkjYVKugYwZ_2GCHKbWsvL38OYBUc4
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: 4cUBYO83LvsWbKHCG2_ZwYguKVYjkdsAFy_YDkVjcOVxAEiAC6niFn1jEl5rs3=DoRqSUT8GWhXacPfobbaBrCwJDFKAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: =cUBYO83LvsWbKHCG2_ZwYguKVYjkdsAFy_YDkVjcOVxAEiAC6niFn1jEl5rs34DoRqSUT8GWhXacPfobbaBrCwJDFKAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKFDJwCrBabbofPcaXhWG8TUSqRoD43sr5lEj1nFin6CAiEAxVOcjVkDY_yFAsdkjYVKugYwZ_2GCHKbWsvL38OYBUc=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAKFDJwCrBabbofPcaXhWG8TUSqRoD43sr5lEj1nFin6CAiEAxVOcjVkDY_yFAsdkjYVKugYwZ_2GCHKbWsvL38OYBUc=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,966, [DEBUG], finished descrambling signature for itag=136
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: POAOq0QJ8wRAIgEGg87A6buDNgAfktRb4ZK-v_sdGKSny8mA9fNqMV-4UCIHF9xQLCSUEIe0wQMcXnESVj-klOWfAhfSrmZA45naW2
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEGg87A6buDNgPfktRb4ZK-v_sdGKSny8mA9fNqMV-4UCIHF9xQLCSUEIe0wQMcXnESVj-klOWfAhfSrmZA45naW2
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: 2Wan54AZmrSfhAfWOlk-jVSEnXcMQw0eIEUSCLQx9FHICU4-VMqNf9Am8ynSKGds_v-KZ4bRtkfPgNDub6A78gGEgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: dWan54AZmrSfhAfWOlk-jVSEnXcMQw0eIEUSCLQx9FHICU4-VMqNf9Am8ynSKG2s_v-KZ4bRtkfPgNDub6A78gGEgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEGg87A6buDNgPfktRb4ZK-v_s2GKSny8mA9fNqMV-4UCIHF9xQLCSUEIe0wQMcXnESVj-klOWfAhfSrmZA45naWd
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgEGg87A6buDNgPfktRb4ZK-v_s2GKSny8mA9fNqMV-4UCIHF9xQLCSUEIe0wQMcXnESVj-klOWfAhfSrmZA45naWd
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,966, [DEBUG], finished descrambling signature for itag=247
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: FOAOq0QJ8wRQIgXCt1v0H9aN2wA9UBfL4qqQneeHsRW=aGkLqQwLWE2twCIQCY-n31uQ2Htg2Fs25lj99vH1kamei1H5VusOqbOBIa4g=x
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,966, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgXCt1v0H9aN2wF9UBfL4qqQneeHsRW=aGkLqQwLWE2twCIQCY-n31uQ2Htg2Fs25lj99vH1kamei1H5VusOqbOBIa4g=x
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: x=g4aIBObqOsuV5H1iemak1Hv99jl52sF2gtH2Qu13n-YCQICwt2EWLwQqLkGa=WRsHeenQqq4LfBU9Fw2Na9H0v1tCXgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: ==g4aIBObqOsuV5H1iemak1Hv99jl52sF2gtH2Qu13n-YCQICwt2EWLwQqLkGaxWRsHeenQqq4LfBU9Fw2Na9H0v1tCXgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgXCt1v0H9aN2wF9UBfL4qqQneeHsRWxaGkLqQwLWE2twCIQCY-n31uQ2Htg2Fs25lj99vH1kamei1H5VusOqbOBIa4g==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgXCt1v0H9aN2wF9UBfL4qqQneeHsRWxaGkLqQwLWE2twCIQCY-n31uQ2Htg2Fs25lj99vH1kamei1H5VusOqbOBIa4g==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,967, [DEBUG], finished descrambling signature for itag=135
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: 3OAOq0QJ8wRQIge49wbOq6bE5LAKE6TtcHHtr0ZpUfI=1b6Bt9u0_Y_MkCIQD36YIV-5cflnJsfMRtrzMqW2YIVinzrhmSJ0SQeElrzQ=o
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIge49wbOq6bE5L3KE6TtcHHtr0ZpUfI=1b6Bt9u0_Y_MkCIQD36YIV-5cflnJsfMRtrzMqW2YIVinzrhmSJ0SQeElrzQ=o
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: o=QzrlEeQS0JSmhrzniVIY2WqMzrtRMfsJnlfc5-VIY63DQICkM_Y_0u9tB6b1=IfUpZ0rtHHctT6EK3L5Eb6qObw94egIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: ==QzrlEeQS0JSmhrzniVIY2WqMzrtRMfsJnlfc5-VIY63DQICkM_Y_0u9tB6b1oIfUpZ0rtHHctT6EK3L5Eb6qObw94egIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIge49wbOq6bE5L3KE6TtcHHtr0ZpUfIo1b6Bt9u0_Y_MkCIQD36YIV-5cflnJsfMRtrzMqW2YIVinzrhmSJ0SQeElrzQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOq0QJ8wRQIge49wbOq6bE5L3KE6TtcHHtr0ZpUfIo1b6Bt9u0_Y_MkCIQD36YIV-5cflnJsfMRtrzMqW2YIVinzrhmSJ0SQeElrzQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,967, [DEBUG], finished descrambling signature for itag=244
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRQIgbggc9eVIE5r4AfsEiMgj5-1iRVwwc=cFnucKjlsgBEcCIQD08yr1wsK9RguU0zqeTJ7GkAkHpwtWSMsPJaEQoJ9rEg=D
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgbggc9eVIE5r44fsEiMgj5-1iRVwwc=cFnucKjlsgBEcCIQD08yr1wsK9RguU0zqeTJ7GkAkHpwtWSMsPJaEQoJ9rEg=D
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: D=gEr9JoQEaJPsMSWtwpHkAkG7JTeqz0UugR9Ksw1ry80DQICcEBgsljKcunFc=cwwVRi1-5jgMiEsf44r5EIVe9cggbgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: ==gEr9JoQEaJPsMSWtwpHkAkG7JTeqz0UugR9Ksw1ry80DQICcEBgsljKcunFcDcwwVRi1-5jgMiEsf44r5EIVe9cggbgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgbggc9eVIE5r44fsEiMgj5-1iRVwwcDcFnucKjlsgBEcCIQD08yr1wsK9RguU0zqeTJ7GkAkHpwtWSMsPJaEQoJ9rEg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,967, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgbggc9eVIE5r44fsEiMgj5-1iRVwwcDcFnucKjlsgBEcCIQD08yr1wsK9RguU0zqeTJ7GkAkHpwtWSMsPJaEQoJ9rEg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,967, [DEBUG], finished descrambling signature for itag=134
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: ROAOq0QJ8wRQIgZw53YmJLLipOAJcHuzYle4ve2FBaz=XXosNKpej077YCIQDegcRsSud1iaV-4a5YMTd9Ipq9mY9zmS9KQBoHn8A8lA=t
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZw53YmJLLipORJcHuzYle4ve2FBaz=XXosNKpej077YCIQDegcRsSud1iaV-4a5YMTd9Ipq9mY9zmS9KQBoHn8A8lA=t
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: t=Al8A8nHoBQK9Smz9Ym9qpI9dTMY5a4-Vai1duSsRcgeDQICY770jepKNsoXX=zaBF2ev4elYzuHcJROpiLLJmY35wZgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: ==Al8A8nHoBQK9Smz9Ym9qpI9dTMY5a4-Vai1duSsRcgeDQICY770jepKNsoXXtzaBF2ev4elYzuHcJROpiLLJmY35wZgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZw53YmJLLipORJcHuzYle4ve2FBaztXXosNKpej077YCIQDegcRsSud1iaV-4a5YMTd9Ipq9mY9zmS9KQBoHn8A8lA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgZw53YmJLLipORJcHuzYle4ve2FBaztXXosNKpej077YCIQDegcRsSud1iaV-4a5YMTd9Ipq9mY9zmS9KQBoHn8A8lA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,968, [DEBUG], finished descrambling signature for itag=243
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: -OAOq0QJ8wRgIhAKwVXBgcYGaHAH9BjcSkqZ_QGwYcA=qlVj8SszE7TxaxAiEA0eqcQCMNYIcoSkupCs3GCluZDwuuMV5TEI3DEP0fwHEU
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKwVXBgcYGaH-H9BjcSkqZ_QGwYcA=qlVj8SszE7TxaxAiEA0eqcQCMNYIcoSkupCs3GCluZDwuuMV5TEI3DEP0fwHEU
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: UEHwf0PED3IET5VMuuwDZulCG3sCpukSocIYNMCQcqe0AEiAxaxT7EzsS8jVlq=AcYwGQ_ZqkScjB9H-HaGYcgBXVwKAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: =EHwf0PED3IET5VMuuwDZulCG3sCpukSocIYNMCQcqe0AEiAxaxT7EzsS8jVlqUAcYwGQ_ZqkScjB9H-HaGYcgBXVwKAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKwVXBgcYGaH-H9BjcSkqZ_QGwYcAUqlVj8SszE7TxaxAiEA0eqcQCMNYIcoSkupCs3GCluZDwuuMV5TEI3DEP0fwHE=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAKwVXBgcYGaH-H9BjcSkqZ_QGwYcAUqlVj8SszE7TxaxAiEA0eqcQCMNYIcoSkupCs3GCluZDwuuMV5TEI3DEP0fwHE=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,968, [DEBUG], finished descrambling signature for itag=133
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: HOAOq0QJ8wRQIhAIVC_Cfy6MQzAJnr27GsdnYRhoD-3=G36KYlh4-vb44NAiB4LjHWICiz_Yko34ZdlpMLg68MZMrRfcNoptiqtHc62A=0
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIVC_Cfy6MQzHJnr27GsdnYRhoD-3=G36KYlh4-vb44NAiB4LjHWICiz_Yko34ZdlpMLg68MZMrRfcNoptiqtHc62A=0
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: 0=A26cHtqitpoNcfRrMZM86gLMpldZ43okY_ziCIWHjL4BiAN44bv-4hlYK63G=3-DohRYndsG72rnJHzQM6yfC_CVIAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,968, [DEBUG], applied transform function
+output: ==A26cHtqitpoNcfRrMZM86gLMpldZ43okY_ziCIWHjL4BiAN44bv-4hlYK63G03-DohRYndsG72rnJHzQM6yfC_CVIAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIVC_Cfy6MQzHJnr27GsdnYRhoD-30G36KYlh4-vb44NAiB4LjHWICiz_Yko34ZdlpMLg68MZMrRfcNoptiqtHc62A==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAIVC_Cfy6MQzHJnr27GsdnYRhoD-30G36KYlh4-vb44NAiB4LjHWICiz_Yko34ZdlpMLg68MZMrRfcNoptiqtHc62A==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,969, [DEBUG], finished descrambling signature for itag=242
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: 9OAOq0QJ8wRQIhALaPK4DUOLILANIekwaGixEG3TdAq=eKUbojwmp3sayQAiBHBDzjh83FnfCwYvnrhyrQD1TQFpWUJU8U1tB7t1WuTg=w
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALaPK4DUOLIL9NIekwaGixEG3TdAq=eKUbojwmp3sayQAiBHBDzjh83FnfCwYvnrhyrQD1TQFpWUJU8U1tB7t1WuTg=w
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: w=gTuW1t7Bt1U8UJUWpFQT1DQryhrnvYwCfnF38hjzDBHBiAQyas3pmwjobUKe=qAdT3GExiGawkeIN9LILOUD4KPaLAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: ==gTuW1t7Bt1U8UJUWpFQT1DQryhrnvYwCfnF38hjzDBHBiAQyas3pmwjobUKewqAdT3GExiGawkeIN9LILOUD4KPaLAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALaPK4DUOLIL9NIekwaGixEG3TdAqweKUbojwmp3sayQAiBHBDzjh83FnfCwYvnrhyrQD1TQFpWUJU8U1tB7t1WuTg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhALaPK4DUOLIL9NIekwaGixEG3TdAqweKUbojwmp3sayQAiBHBDzjh83FnfCwYvnrhyrQD1TQFpWUJU8U1tB7t1WuTg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,969, [DEBUG], finished descrambling signature for itag=160
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: wOAOq0QJ8wRQIgJJLe0yz3OiipA7lNYlmJb5Vm8pumi=uoNnErvGizWQUCIQDvMHOll3tIHdjGe4mpAHOwbSC1N4ZekADQzPQgv5ycbA=Y
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgJJLe0yz3Oiipw7lNYlmJb5Vm8pumi=uoNnErvGizWQUCIQDvMHOll3tIHdjGe4mpAHOwbSC1N4ZekADQzPQgv5ycbA=Y
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: Y=Abcy5vgQPzQDAkeZ4N1CSbwOHApm4eGjdHIt3llOHMvDQICUQWziGvrEnNou=imup8mV5bJmlYNl7wpiiO3zy0eLJJgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: ==Abcy5vgQPzQDAkeZ4N1CSbwOHApm4eGjdHIt3llOHMvDQICUQWziGvrEnNouYimup8mV5bJmlYNl7wpiiO3zy0eLJJgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgJJLe0yz3Oiipw7lNYlmJb5Vm8pumiYuoNnErvGizWQUCIQDvMHOll3tIHdjGe4mpAHOwbSC1N4ZekADQzPQgv5ycbA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgJJLe0yz3Oiipw7lNYlmJb5Vm8pumiYuoNnErvGizWQUCIQDvMHOll3tIHdjGe4mpAHOwbSC1N4ZekADQzPQgv5ycbA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,969, [DEBUG], finished descrambling signature for itag=278
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: aOAOq0QJ8wRQIgCWnETKX281f5A6QBDrEBK-y0_Zn2o=I0haVIYpJw7QwCIQCMwNB6APCQ2yxWEGS5o1fpUJUhh6kTf9hG9BwuvaUUJQ=Z
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,969, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgCWnETKX281f5a6QBDrEBK-y0_Zn2o=I0haVIYpJw7QwCIQCMwNB6APCQ2yxWEGS5o1fpUJUhh6kTf9hG9BwuvaUUJQ=Z
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: Z=QJUUavuwB9Gh9fTk6hhUJUpf1o5SGEWxy2QCPA6BNwMCQICwQ7wJpYIVah0I=o2nZ_0y-KBErDBQ6a5f182XKTEnWCgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: ==QJUUavuwB9Gh9fTk6hhUJUpf1o5SGEWxy2QCPA6BNwMCQICwQ7wJpYIVah0IZo2nZ_0y-KBErDBQ6a5f182XKTEnWCgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgCWnETKX281f5a6QBDrEBK-y0_Zn2oZI0haVIYpJw7QwCIQCMwNB6APCQ2yxWEGS5o1fpUJUhh6kTf9hG9BwuvaUUJQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgCWnETKX281f5a6QBDrEBK-y0_Zn2oZI0haVIYpJw7QwCIQCMwNB6APCQ2yxWEGS5o1fpUJUhh6kTf9hG9BwuvaUUJQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,970, [DEBUG], finished descrambling signature for itag=140
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: cOAOq0QJ8wRQIhAIe7aVXMpn9QAmIk5n045wmt8n9qr=edNHAthp1YTKodAiAqFsKQwdAV7N7Df1LlQUmyR7_IaJ0FDkD5jPt9I2oOLg=i
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIe7aVXMpn9QcmIk5n045wmt8n9qr=edNHAthp1YTKodAiAqFsKQwdAV7N7Df1LlQUmyR7_IaJ0FDkD5jPt9I2oOLg=i
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: i=gLOo2I9tPj5DkDF0JaI_7RymUQlL1fD7N7VAdwQKsFqAiAdoKTY1phtAHNde=rq9n8tmw540n5kImcQ9npMXVa7eIAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: ==gLOo2I9tPj5DkDF0JaI_7RymUQlL1fD7N7VAdwQKsFqAiAdoKTY1phtAHNdeirq9n8tmw540n5kImcQ9npMXVa7eIAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIe7aVXMpn9QcmIk5n045wmt8n9qriedNHAthp1YTKodAiAqFsKQwdAV7N7Df1LlQUmyR7_IaJ0FDkD5jPt9I2oOLg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAIe7aVXMpn9QcmIk5n045wmt8n9qriedNHAthp1YTKodAiAqFsKQwdAV7N7Df1LlQUmyR7_IaJ0FDkD5jPt9I2oOLg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,970, [DEBUG], finished descrambling signature for itag=249
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: EOAOq0QJ8wRAIgB6jeArAHuqufAqwckbAgpgDP54FGHFo5f-4Mcx5pfrcCIFceivEoSDpRBmoZm3wowbHga4VnWqg40YuBxLFnQisP
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgB6jeArAHuqufEqwckbAgpgDP54FGHFo5f-4Mcx5pfrcCIFceivEoSDpRBmoZm3wowbHga4VnWqg40YuBxLFnQisP
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: PsiQnFLxBuY04gqWnV4agHbwow3mZomBRpDSoEviecFICcrfp5xcM4-f5oFHGF45PDgpgAbkcwqEfuquHArAej6BgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: 4siQnFLxBuY04gqWnV4agHbwow3mZomBRpDSoEviecFICcrfp5xcM4-f5oFHGFP5PDgpgAbkcwqEfuquHArAej6BgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgB6jeArAHuqufEqwckbAgpgDP5PFGHFo5f-4Mcx5pfrcCIFceivEoSDpRBmoZm3wowbHga4VnWqg40YuBxLFnQis4
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,970, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgB6jeArAHuqufEqwckbAgpgDP5PFGHFo5f-4Mcx5pfrcCIFceivEoSDpRBmoZm3wowbHga4VnWqg40YuBxLFnQis4
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,970, [DEBUG], finished descrambling signature for itag=250
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRgIhALBGTWD2BXeFAq1_3H2jQlWgvLWrW=NplLMKnb7CGGyvAiEA_XZg889jBCRlfTxCKgKEaGrmWSSdLUAmVEndnpoKKTQp
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALBGTWD2BXeF4q1_3H2jQlWgvLWrW=NplLMKnb7CGGyvAiEA_XZg889jBCRlfTxCKgKEaGrmWSSdLUAmVEndnpoKKTQp
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: pQTKKopndnEVmAULdSSWmrGaEKgKCxTflRCBj988gZX_AEiAvyGGC7bnKMLlpN=WrWLvgWlQj2H3_1q4FeXB2DWTGBLAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: =QTKKopndnEVmAULdSSWmrGaEKgKCxTflRCBj988gZX_AEiAvyGGC7bnKMLlpNpWrWLvgWlQj2H3_1q4FeXB2DWTGBLAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALBGTWD2BXeF4q1_3H2jQlWgvLWrWpNplLMKnb7CGGyvAiEA_XZg889jBCRlfTxCKgKEaGrmWSSdLUAmVEndnpoKKTQ=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:01:30,971, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhALBGTWD2BXeF4q1_3H2jQlWgvLWrWpNplLMKnb7CGGyvAiEA_XZg889jBCRlfTxCKgKEaGrmWSSdLUAmVEndnpoKKTQ=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:01:30,971, [DEBUG], finished descrambling signature for itag=251
+pytube.streams, 2021-06-19 21:01:31,089, [DEBUG], downloading (3737611 total bytes) file to D:\06-Python Projects\PyVideoDownloader\downloads\Alice Animal - Tandem (Official clip).mp4
+pytube.streams, 2021-06-19 21:01:33,098, [DEBUG], download remaining: 0
+pytube.streams, 2021-06-19 21:01:33,099, [DEBUG], download finished
+pytube.helpers, 2021-06-19 21:03:35,642, [DEBUG], matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract, 2021-06-19 21:03:37,084, [DEBUG], applying descrambler
+pytube.extract, 2021-06-19 21:03:37,084, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:03:37,085, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:03:37,085, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:03:37,110, [DEBUG], finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher, 2021-06-19 21:03:37,111, [DEBUG], finding initial function name
+pytube.cipher, 2021-06-19 21:03:37,230, [DEBUG], finished regex search, matched: (?:\b|[^a-zA-Z0-9$])(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher, 2021-06-19 21:03:37,230, [DEBUG], getting transform plan
+pytube.helpers, 2021-06-19 21:03:37,231, [DEBUG], matched regex search: qB=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher, 2021-06-19 21:03:37,231, [DEBUG], getting transform object
+pytube.extract, 2021-06-19 21:03:37,231, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,232, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,233, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,233, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,233, [DEBUG], signature found, skip decipher
+pytube.extract, 2021-06-19 21:03:37,233, [DEBUG], signature found, skip decipher
+pytube.streams, 2021-06-19 21:03:37,743, [DEBUG], downloading (1107380 total bytes) file to D:\06-Python Projects\PyVideoDownloader\downloads\Everytime I play Bloodborne.mp4
+pytube.streams, 2021-06-19 21:03:39,135, [DEBUG], download remaining: 0
+pytube.streams, 2021-06-19 21:03:39,136, [DEBUG], download finished
+pytube.helpers, 2021-06-19 21:06:52,920, [DEBUG], matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract, 2021-06-19 21:06:54,042, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:06:54,043, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:06:54,043, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:06:54,144, [DEBUG], applying descrambler
+pytube.extract, 2021-06-19 21:06:54,145, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:06:54,146, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:06:54,146, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:06:54,178, [DEBUG], finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher, 2021-06-19 21:06:54,178, [DEBUG], finding initial function name
+pytube.cipher, 2021-06-19 21:06:54,306, [DEBUG], finished regex search, matched: (?:\b|[^a-zA-Z0-9$])(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher, 2021-06-19 21:06:54,306, [DEBUG], getting transform plan
+pytube.helpers, 2021-06-19 21:06:54,306, [DEBUG], matched regex search: qB=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher, 2021-06-19 21:06:54,307, [DEBUG], getting transform object
+pytube.cipher, 2021-06-19 21:06:54,307, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,307, [DEBUG], applied transform function
+output: 2OAOq0QJ8wRQIhAK9QEtpJfPZQAh3r7cTp8z19rm4l2=l9w9SuJamsNnohAiBiPEUwdsD-8ar4dyWo9ln1joqHXRgcDx4zi7Xlz8gY_w=a
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,307, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAK9QEtpJfPZQ2h3r7cTp8z19rm4l2=l9w9SuJamsNnohAiBiPEUwdsD-8ar4dyWo9ln1joqHXRgcDx4zi7Xlz8gY_w=a
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: a=w_Yg8zlX7iz4xDcgRXHqoj1nl9oWyd4ra8-DsdwUEPiBiAhonNsmaJuS9w9l=2l4mr91z8pTc7r3h2QZPfJptEQ9KAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: ==w_Yg8zlX7iz4xDcgRXHqoj1nl9oWyd4ra8-DsdwUEPiBiAhonNsmaJuS9w9la2l4mr91z8pTc7r3h2QZPfJptEQ9KAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAK9QEtpJfPZQ2h3r7cTp8z19rm4l2al9w9SuJamsNnohAiBiPEUwdsD-8ar4dyWo9ln1joqHXRgcDx4zi7Xlz8gY_w==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAK9QEtpJfPZQ2h3r7cTp8z19rm4l2al9w9SuJamsNnohAiBiPEUwdsD-8ar4dyWo9ln1joqHXRgcDx4zi7Xlz8gY_w==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,308, [DEBUG], finished descrambling signature for itag=18
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: _OAOq0QJ8wRQIgchhHRV6WTxVjAoNaxGRc-uW3Fn1Y2=gcjL-EsbaluNgCIQD7HzZ0Qlh-UmpMFLv8FQdFcsnOQOFCONOptZeWPNXYGw=E
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgchhHRV6WTxVj_oNaxGRc-uW3Fn1Y2=gcjL-EsbaluNgCIQD7HzZ0Qlh-UmpMFLv8FQdFcsnOQOFCONOptZeWPNXYGw=E
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: E=wGYXNPWeZtpONOCFOQOnscFdQF8vLFMpmU-hlQ0ZzH7DQICgNulabsE-Ljcg=2Y1nF3Wu-cRGxaNo_jVxTW6VRHhhcgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: ==wGYXNPWeZtpONOCFOQOnscFdQF8vLFMpmU-hlQ0ZzH7DQICgNulabsE-LjcgE2Y1nF3Wu-cRGxaNo_jVxTW6VRHhhcgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgchhHRV6WTxVj_oNaxGRc-uW3Fn1Y2EgcjL-EsbaluNgCIQD7HzZ0Qlh-UmpMFLv8FQdFcsnOQOFCONOptZeWPNXYGw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgchhHRV6WTxVj_oNaxGRc-uW3Fn1Y2EgcjL-EsbaluNgCIQD7HzZ0Qlh-UmpMFLv8FQdFcsnOQOFCONOptZeWPNXYGw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,308, [DEBUG], finished descrambling signature for itag=137
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: MOAOq0QJ8wRAIgdXjEYR1G8bG3A5MdJ5vNAc3XVYlxXBEe8CMZPYI8JQsCIEXsOgtMAGSfXhEbWNO_UJFe2P4MhkQRQozN2P1lEq0G
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgdXjEYR1G8bG3M5MdJ5vNAc3XVYlxXBEe8CMZPYI8JQsCIEXsOgtMAGSfXhEbWNO_UJFe2P4MhkQRQozN2P1lEq0G
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: G0qEl1P2NzoQRQkhM4P2eFJU_ONWbEhXfSGAMtgOsXEICsQJ8IYPZMC8eEBXxlYVX3cANv5JdM5M3Gb8G1RYEjXdgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: Y0qEl1P2NzoQRQkhM4P2eFJU_ONWbEhXfSGAMtgOsXEICsQJ8IYPZMC8eEBXxlGVX3cANv5JdM5M3Gb8G1RYEjXdgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,308, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgdXjEYR1G8bG3M5MdJ5vNAc3XVGlxXBEe8CMZPYI8JQsCIEXsOgtMAGSfXhEbWNO_UJFe2P4MhkQRQozN2P1lEq0Y
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgdXjEYR1G8bG3M5MdJ5vNAc3XVGlxXBEe8CMZPYI8JQsCIEXsOgtMAGSfXhEbWNO_UJFe2P4MhkQRQozN2P1lEq0Y
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,309, [DEBUG], finished descrambling signature for itag=248
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: aOAOq0QJ8wRQIgTtx1erEpOhXbABKs9g5ma5DDcRD1i=8b_4zXDHlBNEkCIQDXEHzusqMxiN_aa7N2SO0OBnb4ImDrF80Nx4yyGuPkiA=3
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTtx1erEpOhXbaBKs9g5ma5DDcRD1i=8b_4zXDHlBNEkCIQDXEHzusqMxiN_aa7N2SO0OBnb4ImDrF80Nx4yyGuPkiA=3
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: 3=AikPuGyy4xN08FrDmI4bnBO0OS2N7aa_NixMqsuzHEXDQICkENBlHDXz4_b8=i1DRcDD5am5g9sKBabXhOpEre1xtTgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: ==AikPuGyy4xN08FrDmI4bnBO0OS2N7aa_NixMqsuzHEXDQICkENBlHDXz4_b83i1DRcDD5am5g9sKBabXhOpEre1xtTgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTtx1erEpOhXbaBKs9g5ma5DDcRD1i38b_4zXDHlBNEkCIQDXEHzusqMxiN_aa7N2SO0OBnb4ImDrF80Nx4yyGuPkiA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgTtx1erEpOhXbaBKs9g5ma5DDcRD1i38b_4zXDHlBNEkCIQDXEHzusqMxiN_aa7N2SO0OBnb4ImDrF80Nx4yyGuPkiA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,309, [DEBUG], finished descrambling signature for itag=399
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: GOAOq0QJ8wRQIhAOQORvtwSoOzAXq_jAdt8wlnrb_QF=-liK0sGzr8WMWYAiB5EbzkxQYe1SNCMg8O8BdcKeCrc2Ehby0PeHrAnC_4xg=5
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAOQORvtwSoOzGXq_jAdt8wlnrb_QF=-liK0sGzr8WMWYAiB5EbzkxQYe1SNCMg8O8BdcKeCrc2Ehby0PeHrAnC_4xg=5
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: 5=gx4_CnArHeP0ybhE2crCeKcdB8O8gMCNS1eYQxkzbE5BiAYWMW8rzGs0Kil-=FQ_brnlw8tdAj_qXGzOoSwtvROQOAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: ==gx4_CnArHeP0ybhE2crCeKcdB8O8gMCNS1eYQxkzbE5BiAYWMW8rzGs0Kil-5FQ_brnlw8tdAj_qXGzOoSwtvROQOAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAOQORvtwSoOzGXq_jAdt8wlnrb_QF5-liK0sGzr8WMWYAiB5EbzkxQYe1SNCMg8O8BdcKeCrc2Ehby0PeHrAnC_4xg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAOQORvtwSoOzGXq_jAdt8wlnrb_QF5-liK0sGzr8WMWYAiB5EbzkxQYe1SNCMg8O8BdcKeCrc2Ehby0PeHrAnC_4xg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,309, [DEBUG], finished descrambling signature for itag=136
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: 2OAOq0QJ8wRQIhAMNUv_P2yeILAqiMfn6IiTQTBE4RE=_brzaTp8z10mw8AiA2QF6aRW7DikjF7ccHoLsJynoipKecDCSvBeA8OrprXw=b
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMNUv_P2yeIL2qiMfn6IiTQTBE4RE=_brzaTp8z10mw8AiA2QF6aRW7DikjF7ccHoLsJynoipKecDCSvBeA8OrprXw=b
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: b=wXrprO8AeBvSCDceKpionyJsLoHcc7FjkiD7WRa6FQ2AiA8wm01z8pTazrb_=ER4EBTQTiI6nfMiq2LIey2P_vUNMAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: ==wXrprO8AeBvSCDceKpionyJsLoHcc7FjkiD7WRa6FQ2AiA8wm01z8pTazrb_bER4EBTQTiI6nfMiq2LIey2P_vUNMAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMNUv_P2yeIL2qiMfn6IiTQTBE4REb_brzaTp8z10mw8AiA2QF6aRW7DikjF7ccHoLsJynoipKecDCSvBeA8OrprXw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,309, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAMNUv_P2yeIL2qiMfn6IiTQTBE4REb_brzaTp8z10mw8AiA2QF6aRW7DikjF7ccHoLsJynoipKecDCSvBeA8OrprXw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,309, [DEBUG], finished descrambling signature for itag=247
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: aOAOq0QJ8wRgIhAOQ6KomYiWWBANQZEt_G_cQ4Deai6=ctLzlBzJgq6mTvAiEAyyLcEXk67lYA2l2BjY88ak6frHfd9acMSU8OqEz5SVsc
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAOQ6KomYiWWBaNQZEt_G_cQ4Deai6=ctLzlBzJgq6mTvAiEAyyLcEXk67lYA2l2BjY88ak6frHfd9acMSU8OqEz5SVsc
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: csVS5zEqO8USMca9dfHrf6ka88YjB2l2AYl76kXEcLyyAEiAvTm6qgJzBlzLtc=6iaeD4Qc_G_tEZQNaBWWiYmoK6QOAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: =sVS5zEqO8USMca9dfHrf6ka88YjB2l2AYl76kXEcLyyAEiAvTm6qgJzBlzLtcc6iaeD4Qc_G_tEZQNaBWWiYmoK6QOAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAOQ6KomYiWWBaNQZEt_G_cQ4Deai6cctLzlBzJgq6mTvAiEAyyLcEXk67lYA2l2BjY88ak6frHfd9acMSU8OqEz5SVs=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAOQ6KomYiWWBaNQZEt_G_cQ4Deai6cctLzlBzJgq6mTvAiEAyyLcEXk67lYA2l2BjY88ak6frHfd9acMSU8OqEz5SVs=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,310, [DEBUG], finished descrambling signature for itag=398
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: eOAOq0QJ8wRAIgPS6T8EqeJe1fArFa-orHwSwLq4VwJ0oXks6CB1kSkrkCIFWAage0KNltmFK6YJzaCLyXgSWIuOj6TC8N1emCk2NK
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgPS6T8EqeJe1ferFa-orHwSwLq4VwJ0oXks6CB1kSkrkCIFWAage0KNltmFK6YJzaCLyXgSWIuOj6TC8N1emCk2NK
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: KN2kCme1N8CT6jOuIWSgXyLCazJY6KFmtlNK0egaAWFICkrkSk1BC6skXo0JwV4qLwSwHro-aFref1eJeqE8T6SPgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: 4N2kCme1N8CT6jOuIWSgXyLCazJY6KFmtlNK0egaAWFICkrkSk1BC6skXo0JwVKqLwSwHro-aFref1eJeqE8T6SPgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgPS6T8EqeJe1ferFa-orHwSwLqKVwJ0oXks6CB1kSkrkCIFWAage0KNltmFK6YJzaCLyXgSWIuOj6TC8N1emCk2N4
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgPS6T8EqeJe1ferFa-orHwSwLqKVwJ0oXks6CB1kSkrkCIFWAage0KNltmFK6YJzaCLyXgSWIuOj6TC8N1emCk2N4
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,310, [DEBUG], finished descrambling signature for itag=135
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRQIgZBOh3TJMon9LA-YCXpl3X3fU-NIYM=GPdOC_jhM0M5YCIQC76Yrn3odIHzSkI_x2k2D2srqID_LGEYCfPbzvWTN1EQ=V
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZBOh3TJMon9L4-YCXpl3X3fU-NIYM=GPdOC_jhM0M5YCIQC76Yrn3odIHzSkI_x2k2D2srqID_LGEYCfPbzvWTN1EQ=V
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: V=QE1NTWvzbPfCYEGL_DIqrs2D2k2x_IkSzHIdo3nrY67CQICY5M0Mhj_COdPG=MYIN-Uf3X3lpXCY-4L9noMJT3hOBZgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: ==QE1NTWvzbPfCYEGL_DIqrs2D2k2x_IkSzHIdo3nrY67CQICY5M0Mhj_COdPGVMYIN-Uf3X3lpXCY-4L9noMJT3hOBZgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZBOh3TJMon9L4-YCXpl3X3fU-NIYMVGPdOC_jhM0M5YCIQC76Yrn3odIHzSkI_x2k2D2srqID_LGEYCfPbzvWTN1EQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgZBOh3TJMon9L4-YCXpl3X3fU-NIYMVGPdOC_jhM0M5YCIQC76Yrn3odIHzSkI_x2k2D2srqID_LGEYCfPbzvWTN1EQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,310, [DEBUG], finished descrambling signature for itag=244
+pytube.cipher, 2021-06-19 21:06:54,310, [DEBUG], applied transform function
+output: BOAOq0QJ8wRQIgZ1_I19AfskgpA3_w2PpuubTJ1bC7f=Ges-GkcDUpOAECIQDssy9sIud_MOT5y4f23OLetKT7j-RCER-v7uIsFPQISQ=Q
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZ1_I19AfskgpB3_w2PpuubTJ1bC7f=Ges-GkcDUpOAECIQDssy9sIud_MOT5y4f23OLetKT7j-RCER-v7uIsFPQISQ=Q
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: Q=QSIQPFsIu7v-RECR-j7TKteLO32f4y5TOM_duIs9yssDQICEAOpUDckG-seG=f7Cb1JTbuupP2w_3BpgksfA91I_1ZgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: ==QSIQPFsIu7v-RECR-j7TKteLO32f4y5TOM_duIs9yssDQICEAOpUDckG-seGQf7Cb1JTbuupP2w_3BpgksfA91I_1ZgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZ1_I19AfskgpB3_w2PpuubTJ1bC7fQGes-GkcDUpOAECIQDssy9sIud_MOT5y4f23OLetKT7j-RCER-v7uIsFPQISQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgZ1_I19AfskgpB3_w2PpuubTJ1bC7fQGes-GkcDUpOAECIQDssy9sIud_MOT5y4f23OLetKT7j-RCER-v7uIsFPQISQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,311, [DEBUG], finished descrambling signature for itag=397
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: 7OAOq0QJ8wRQIgMkOUCH07IQFfAcUpRY8qAbe0gbIJb=YvlFsWYq3oq2ECIQCKeq7pcQAaJNM6eOSVZExlJ6Cv31R3_lWGfdUo7nEaFQ=0
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgMkOUCH07IQFf7cUpRY8qAbe0gbIJb=YvlFsWYq3oq2ECIQCKeq7pcQAaJNM6eOSVZExlJ6Cv31R3_lWGfdUo7nEaFQ=0
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: 0=QFaEn7oUdfGWl_3R13vC6JlxEZVSOe6MNJaAQcp7qeKCQICE2qo3qYWsFlvY=bJIbg0ebAq8YRpUc7fFQI70HCUOkMgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: ==QFaEn7oUdfGWl_3R13vC6JlxEZVSOe6MNJaAQcp7qeKCQICE2qo3qYWsFlvY0bJIbg0ebAq8YRpUc7fFQI70HCUOkMgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgMkOUCH07IQFf7cUpRY8qAbe0gbIJb0YvlFsWYq3oq2ECIQCKeq7pcQAaJNM6eOSVZExlJ6Cv31R3_lWGfdUo7nEaFQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgMkOUCH07IQFf7cUpRY8qAbe0gbIJb0YvlFsWYq3oq2ECIQCKeq7pcQAaJNM6eOSVZExlJ6Cv31R3_lWGfdUo7nEaFQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,311, [DEBUG], finished descrambling signature for itag=134
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: DOAOq0QJ8wRQIgZRc0e7TdHJ8DAQRz2BUH-y2aWdavd=2vGe0ZeJPTUNgCIQD_7l5IHxXBF8AI8f2ASKVK5xEVHidBpxPalIVtO0m_lw=8
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZRc0e7TdHJ8DDQRz2BUH-y2aWdavd=2vGe0ZeJPTUNgCIQD_7l5IHxXBF8AI8f2ASKVK5xEVHidBpxPalIVtO0m_lw=8
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: 8=wl_m0OtVIlaPxpBdiHVEx5KVKSA2f8IA8FBXxHI5l7_DQICgNUTPJeZ0eGv2=dvadWa2y-HUB2zRQDD8JHdT7e0cRZgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: ==wl_m0OtVIlaPxpBdiHVEx5KVKSA2f8IA8FBXxHI5l7_DQICgNUTPJeZ0eGv28dvadWa2y-HUB2zRQDD8JHdT7e0cRZgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZRc0e7TdHJ8DDQRz2BUH-y2aWdavd82vGe0ZeJPTUNgCIQD_7l5IHxXBF8AI8f2ASKVK5xEVHidBpxPalIVtO0m_lw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgZRc0e7TdHJ8DDQRz2BUH-y2aWdavd82vGe0ZeJPTUNgCIQD_7l5IHxXBF8AI8f2ASKVK5xEVHidBpxPalIVtO0m_lw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,311, [DEBUG], finished descrambling signature for itag=243
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: UOAOq0QJ8wRQIhAIlx95PHa6UAAtciZLzO6cg4Yy6Ee=XmKzyuPbSuuGQiAiBsV0fvu7092cET8X9NtKP8smx_h_19t_Ycb7BBNbPgDg=I
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,311, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIlx95PHa6UAUtciZLzO6cg4Yy6Ee=XmKzyuPbSuuGQiAiBsV0fvu7092cET8X9NtKP8smx_h_19t_Ycb7BBNbPgDg=I
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: I=gDgPbNBB7bcY_t91_h_xms8PKtN9X8TEc2907uvf0VsBiAiQGuuSbPuyzKmX=eE6yY4gc6OzLZictUAU6aHP59xlIAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: ==gDgPbNBB7bcY_t91_h_xms8PKtN9X8TEc2907uvf0VsBiAiQGuuSbPuyzKmXIeE6yY4gc6OzLZictUAU6aHP59xlIAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIlx95PHa6UAUtciZLzO6cg4Yy6EeIXmKzyuPbSuuGQiAiBsV0fvu7092cET8X9NtKP8smx_h_19t_Ycb7BBNbPgDg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAIlx95PHa6UAUtciZLzO6cg4Yy6EeIXmKzyuPbSuuGQiAiBsV0fvu7092cET8X9NtKP8smx_h_19t_Ycb7BBNbPgDg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,312, [DEBUG], finished descrambling signature for itag=396
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: aOAOq0QJ8wRQIgAMCEkBxq-i7fApDQkJ7RmrgfArCKr=k3jwidSc1L7FgCIQCETBc617f2kdJCart457K-YTfqG9rn2VHHTaIHkrhbrw=7
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgAMCEkBxq-i7fapDQkJ7RmrgfArCKr=k3jwidSc1L7FgCIQCETBc617f2kdJCart457K-YTfqG9rn2VHHTaIHkrhbrw=7
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: 7=wrbhrkHIaTHHV2nr9GqfTY-K754traCJdk2f716cBTECQICgF7L1cSdiwj3k=rKCrAfgrmR7JkQDpaf7i-qxBkECMAgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: ==wrbhrkHIaTHHV2nr9GqfTY-K754traCJdk2f716cBTECQICgF7L1cSdiwj3k7rKCrAfgrmR7JkQDpaf7i-qxBkECMAgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgAMCEkBxq-i7fapDQkJ7RmrgfArCKr7k3jwidSc1L7FgCIQCETBc617f2kdJCart457K-YTfqG9rn2VHHTaIHkrhbrw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgAMCEkBxq-i7fapDQkJ7RmrgfArCKr7k3jwidSc1L7FgCIQCETBc617f2kdJCart457K-YTfqG9rn2VHHTaIHkrhbrw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,312, [DEBUG], finished descrambling signature for itag=133
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: fOAOq0QJ8wRAIgEqwV4WyeRuX7A8v0-yQy_ZB2B8mN_3inGYYOkVqwt8sCIFfCGd0mk75Tc0c7b8mnfC70yGsG2etOKXeQxnoDL7Pt
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEqwV4WyeRuX7f8v0-yQy_ZB2B8mN_3inGYYOkVqwt8sCIFfCGd0mk75Tc0c7b8mnfC70yGsG2etOKXeQxnoDL7Pt
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: tP7LDonxQeXKOte2GsGy07Cfnm8b7c0cT57km0dGCfFICs8twqVkOYYGni3_Nm8B2BZ_yQy-0v8f7XuReyW4VwqEgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: 8P7LDonxQeXKOte2GsGy07Cfnm8b7c0cT57km0dGCfFICs8twqVkOYYGni3_NmtB2BZ_yQy-0v8f7XuReyW4VwqEgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEqwV4WyeRuX7f8v0-yQy_ZB2BtmN_3inGYYOkVqwt8sCIFfCGd0mk75Tc0c7b8mnfC70yGsG2etOKXeQxnoDL7P8
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgEqwV4WyeRuX7f8v0-yQy_ZB2BtmN_3inGYYOkVqwt8sCIFfCGd0mk75Tc0c7b8mnfC70yGsG2etOKXeQxnoDL7P8
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,312, [DEBUG], finished descrambling signature for itag=242
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: NOAOq0QJ8wRAIgc_q_ZszJ1jmFA3Dz69NrK0Fezdu5PQdcJcLKJ8j7nggCICrUOum9xS5VW9Cby9LP8Gd_-TF-S88fRp_QfI3RUeo5
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgc_q_ZszJ1jmFN3Dz69NrK0Fezdu5PQdcJcLKJ8j7nggCICrUOum9xS5VW9Cby9LP8Gd_-TF-S88fRp_QfI3RUeo5
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,312, [DEBUG], applied transform function
+output: 5oeUR3IfQ_pRf88S-FT-_dG8PL9ybC9WV5Sx9muOUrCICggn7j8JKLcJcdQP5udzeF0KrN96zD3NFmj1JzsZ_q_cgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: doeUR3IfQ_pRf88S-FT-_dG8PL9ybC9WV5Sx9muOUrCICggn7j8JKLcJcdQP5u5zeF0KrN96zD3NFmj1JzsZ_q_cgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgc_q_ZszJ1jmFN3Dz69NrK0Fez5u5PQdcJcLKJ8j7nggCICrUOum9xS5VW9Cby9LP8Gd_-TF-S88fRp_QfI3RUeod
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgc_q_ZszJ1jmFN3Dz69NrK0Fez5u5PQdcJcLKJ8j7nggCICrUOum9xS5VW9Cby9LP8Gd_-TF-S88fRp_QfI3RUeod
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,313, [DEBUG], finished descrambling signature for itag=395
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: nOAOq0QJ8wRQIhAM-vZMI5LgEsAILSPY-NaMZk-dqb9=gRYdNfPPwhi_zxAiBBb5y1DYBh3Faot4Sw-Kkn2M7ppAAlenfNx5kPchcNiA=t
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAM-vZMI5LgEsnILSPY-NaMZk-dqb9=gRYdNfPPwhi_zxAiBBb5y1DYBh3Faot4Sw-Kkn2M7ppAAlenfNx5kPchcNiA=t
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: t=AiNchcPk5xNfnelAApp7M2nkK-wS4toaF3hBYD1y5bBBiAxz_ihwPPfNdYRg=9bqd-kZMaN-YPSLInsEgL5IMZv-MAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: ==AiNchcPk5xNfnelAApp7M2nkK-wS4toaF3hBYD1y5bBBiAxz_ihwPPfNdYRgt9bqd-kZMaN-YPSLInsEgL5IMZv-MAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAM-vZMI5LgEsnILSPY-NaMZk-dqb9tgRYdNfPPwhi_zxAiBBb5y1DYBh3Faot4Sw-Kkn2M7ppAAlenfNx5kPchcNiA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAM-vZMI5LgEsnILSPY-NaMZk-dqb9tgRYdNfPPwhi_zxAiBBb5y1DYBh3Faot4Sw-Kkn2M7ppAAlenfNx5kPchcNiA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,313, [DEBUG], finished descrambling signature for itag=160
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: aOAOq0QJ8wRQIhAMFZHwhKfR5xAc300HdxAGgyFGsOu=TvmWIRDx1F7ffwAiBrIvQghWZFoBGgkxAT5lFXi9upVfnw2bJKXzR3aSmoNQ=t
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMFZHwhKfR5xac300HdxAGgyFGsOu=TvmWIRDx1F7ffwAiBrIvQghWZFoBGgkxAT5lFXi9upVfnw2bJKXzR3aSmoNQ=t
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: t=QNomSa3RzXKJb2wnfVpu9iXFl5TAxkgGBoFZWhgQvIrBiAwff7F1xDRIWmvT=uOsGFygGAxdH003cax5RfKhwHZFMAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: ==QNomSa3RzXKJb2wnfVpu9iXFl5TAxkgGBoFZWhgQvIrBiAwff7F1xDRIWmvTtuOsGFygGAxdH003cax5RfKhwHZFMAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMFZHwhKfR5xac300HdxAGgyFGsOutTvmWIRDx1F7ffwAiBrIvQghWZFoBGgkxAT5lFXi9upVfnw2bJKXzR3aSmoNQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAMFZHwhKfR5xac300HdxAGgyFGsOutTvmWIRDx1F7ffwAiBrIvQghWZFoBGgkxAT5lFXi9upVfnw2bJKXzR3aSmoNQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,313, [DEBUG], finished descrambling signature for itag=278
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: 7OAOq0QJ8wRQIgfmvthD_ljTBxA93QMTWWyzTeZ7D-5=fSMsIjU34hMaECIQDGhIHQTf5zydlovOsk6GCPfIM4uOMUSnyfcwub8KfWoA=W
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgfmvthD_ljTBx793QMTWWyzTeZ7D-5=fSMsIjU34hMaECIQDGhIHQTf5zydlovOsk6GCPfIM4uOMUSnyfcwub8KfWoA=W
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: W=AoWfK8buwcfynSUMOu4MIfPCG6ksOvoldyz5fTQHIhGDQICEaMh43UjIsMSf=5-D7ZeTzyWWTMQ397xBTjl_DhtvmfgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,313, [DEBUG], applied transform function
+output: ==AoWfK8buwcfynSUMOu4MIfPCG6ksOvoldyz5fTQHIhGDQICEaMh43UjIsMSfW5-D7ZeTzyWWTMQ397xBTjl_DhtvmfgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgfmvthD_ljTBx793QMTWWyzTeZ7D-5WfSMsIjU34hMaECIQDGhIHQTf5zydlovOsk6GCPfIM4uOMUSnyfcwub8KfWoA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgfmvthD_ljTBx793QMTWWyzTeZ7D-5WfSMsIjU34hMaECIQDGhIHQTf5zydlovOsk6GCPfIM4uOMUSnyfcwub8KfWoA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,314, [DEBUG], finished descrambling signature for itag=394
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: wOAOq0QJ8wRgIhAJZGMGYIb7v5AzIDG8296EazdqOIJ=vxCHkIpPLc7rWoAiEAhaLYC8n6uKXe4JhZNE-1LmvdIBlUGPDsU5NMPCLuVWcP
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJZGMGYIb7v5wzIDG8296EazdqOIJ=vxCHkIpPLc7rWoAiEAhaLYC8n6uKXe4JhZNE-1LmvdIBlUGPDsU5NMPCLuVWcP
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: PcWVuLCPMN5UsDPGUlBIdvmL1-ENZhJ4eXKu6n8CYLahAEiAoWr7cLPpIkHCxv=JIOqdzaE6928GDIzw5v7bIYGMGZJAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: =cWVuLCPMN5UsDPGUlBIdvmL1-ENZhJ4eXKu6n8CYLahAEiAoWr7cLPpIkHCxvPJIOqdzaE6928GDIzw5v7bIYGMGZJAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJZGMGYIb7v5wzIDG8296EazdqOIJPvxCHkIpPLc7rWoAiEAhaLYC8n6uKXe4JhZNE-1LmvdIBlUGPDsU5NMPCLuVWc=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAJZGMGYIb7v5wzIDG8296EazdqOIJPvxCHkIpPLc7rWoAiEAhaLYC8n6uKXe4JhZNE-1LmvdIBlUGPDsU5NMPCLuVWc=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,314, [DEBUG], finished descrambling signature for itag=140
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: TOAOq0QJ8wRAIgVqjcgmUWwi_RA_VsKEZHrr0x2bNQT795zCNYXRK-TNoCIBtqn_LEuicdtOkEYimr85pubg1iZihJYF_s32bItPRi
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgVqjcgmUWwi_RT_VsKEZHrr0x2bNQT795zCNYXRK-TNoCIBtqn_LEuicdtOkEYimr85pubg1iZihJYF_s32bItPRi
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: iRPtIb23s_FYJhiZi1gbup58rmiYEkOtdciuEL_nqtBICoNT-KRXYNCz597TQNb2x0rrHZEKsV_TR_iwWUmgcjqVgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: bRPtIb23s_FYJhiZi1gbup58rmiYEkOtdciuEL_nqtBICoNT-KRXYNCz597TQNi2x0rrHZEKsV_TR_iwWUmgcjqVgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgVqjcgmUWwi_RT_VsKEZHrr0x2iNQT795zCNYXRK-TNoCIBtqn_LEuicdtOkEYimr85pubg1iZihJYF_s32bItPRb
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgVqjcgmUWwi_RT_VsKEZHrr0x2iNQT795zCNYXRK-TNoCIBtqn_LEuicdtOkEYimr85pubg1iZihJYF_s32bItPRb
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,314, [DEBUG], finished descrambling signature for itag=249
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: fOAOq0QJ8wRQIgRpnuP1ZiOKtEAPCNhuzE_IEmF4nIJ=Yu8-OM6F4a40UCIQCQRyczrPJQpN-8KLd_rGVzTbrdP4Aric41IWEhKI-oaQ=6
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRpnuP1ZiOKtEfPCNhuzE_IEmF4nIJ=Yu8-OM6F4a40UCIQCQRyczrPJQpN-8KLd_rGVzTbrdP4Aric41IWEhKI-oaQ=6
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: 6=Qao-IKhEWI14cirA4PdrbTzVGr_dLK8-NpQJPrzcyRQCQICU04a4F6MO-8uY=JIn4FmEI_EzuhNCPfEtKOiZ1PunpRgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: ==Qao-IKhEWI14cirA4PdrbTzVGr_dLK8-NpQJPrzcyRQCQICU04a4F6MO-8uY6JIn4FmEI_EzuhNCPfEtKOiZ1PunpRgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRpnuP1ZiOKtEfPCNhuzE_IEmF4nIJ6Yu8-OM6F4a40UCIQCQRyczrPJQpN-8KLd_rGVzTbrdP4Aric41IWEhKI-oaQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,314, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgRpnuP1ZiOKtEfPCNhuzE_IEmF4nIJ6Yu8-OM6F4a40UCIQCQRyczrPJQpN-8KLd_rGVzTbrdP4Aric41IWEhKI-oaQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,315, [DEBUG], finished descrambling signature for itag=250
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: tOAOq0QJ8wRQIhAPm0rU8pdTTBAexNOvJUmLaLmSdmg=tPTMXh_2dCBWK1AiA-jQju70z2J0FhhjDqFqf7TTMTJRjjOSjiT6sixzUD8A=u
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAPm0rU8pdTTBtexNOvJUmLaLmSdmg=tPTMXh_2dCBWK1AiA-jQju70z2J0FhhjDqFqf7TTMTJRjjOSjiT6sixzUD8A=u
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: u=A8DUzxis6TijSOjjRJTMTT7fqFqDjhhF0J2z07ujQj-AiA1KWBCd2_hXMTPt=gmdSmLaLmUJvONxetBTTdp8Ur0mPAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: ==A8DUzxis6TijSOjjRJTMTT7fqFqDjhhF0J2z07ujQj-AiA1KWBCd2_hXMTPtugmdSmLaLmUJvONxetBTTdp8Ur0mPAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAPm0rU8pdTTBtexNOvJUmLaLmSdmgutPTMXh_2dCBWK1AiA-jQju70z2J0FhhjDqFqf7TTMTJRjjOSjiT6sixzUD8A==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:06:54,315, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAPm0rU8pdTTBtexNOvJUmLaLmSdmgutPTMXh_2dCBWK1AiA-jQju70z2J0FhhjDqFqf7TTMTJRjjOSjiT6sixzUD8A==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:06:54,315, [DEBUG], finished descrambling signature for itag=251
+pytube.streams, 2021-06-19 21:06:54,444, [DEBUG], downloading (20001610 total bytes) file to D:\06-Python Projects\PyVideoDownloader\downloads/Nice\Bring Me The Horizon - Doomed (Live at the Royal Albert Hall).mp4
+pytube.streams, 2021-06-19 21:06:58,164, [DEBUG], download remaining: 10564426
+pytube.streams, 2021-06-19 21:07:01,649, [DEBUG], download remaining: 1127242
+pytube.streams, 2021-06-19 21:07:02,152, [DEBUG], download remaining: 0
+pytube.streams, 2021-06-19 21:07:02,153, [DEBUG], download finished
+pytube.helpers, 2021-06-19 21:07:02,313, [DEBUG], matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract, 2021-06-19 21:07:03,997, [DEBUG], applying descrambler
+pytube.extract, 2021-06-19 21:07:03,998, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:07:03,999, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:07:03,999, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:07:04,036, [DEBUG], finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher, 2021-06-19 21:07:04,036, [DEBUG], finding initial function name
+pytube.cipher, 2021-06-19 21:07:04,162, [DEBUG], finished regex search, matched: (?:\b|[^a-zA-Z0-9$])(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher, 2021-06-19 21:07:04,162, [DEBUG], getting transform plan
+pytube.helpers, 2021-06-19 21:07:04,162, [DEBUG], matched regex search: qB=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher, 2021-06-19 21:07:04,162, [DEBUG], getting transform object
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], applied transform function
+output: ROAOq0QJ8wRgIhAOoH4ldtEM3WA8_1mZFk5sf_kTgl1=y8j2j6Jo1fTdHgAiEApadUAp58rH94Rq_PTgvDzBmSWkbAPLNjZpE2B6N3RgQn
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAOoH4ldtEM3WR8_1mZFk5sf_kTgl1=y8j2j6Jo1fTdHgAiEApadUAp58rH94Rq_PTgvDzBmSWkbAPLNjZpE2B6N3RgQn
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], applied transform function
+output: nQgR3N6B2EpZjNLPAbkWSmBzDvgTP_qR49Hr85pAUdapAEiAgHdTf1oJ6j2j8y=1lgTk_fs5kFZm1_8RW3MEtdl4HoOAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], applied transform function
+output: =QgR3N6B2EpZjNLPAbkWSmBzDvgTP_qR49Hr85pAUdapAEiAgHdTf1oJ6j2j8yn1lgTk_fs5kFZm1_8RW3MEtdl4HoOAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,163, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAOoH4ldtEM3WR8_1mZFk5sf_kTgl1ny8j2j6Jo1fTdHgAiEApadUAp58rH94Rq_PTgvDzBmSWkbAPLNjZpE2B6N3RgQ=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAOoH4ldtEM3WR8_1mZFk5sf_kTgl1ny8j2j6Jo1fTdHgAiEApadUAp58rH94Rq_PTgvDzBmSWkbAPLNjZpE2B6N3RgQ=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,164, [DEBUG], finished descrambling signature for itag=18
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: 5OAOq0QJ8wRgIhAMFhK8H28S2vAccKZB3h_j5LYzbQv=zP_yojLs-k48xQAiEA_9Fixx7Rw4PlO8ityPSdphChkiBSQNd5_Kbo3uL6PxAR
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAMFhK8H28S2v5ccKZB3h_j5LYzbQv=zP_yojLs-k48xQAiEA_9Fixx7Rw4PlO8ityPSdphChkiBSQNd5_Kbo3uL6PxAR
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: RAxP6Lu3obK_5dNQSBikhChpdSPyti8OlP4wR7xxiF9_AEiAQx84k-sLjoy_Pz=vQbzYL5j_h3BZKcc5v2S82H8KhFMAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: =AxP6Lu3obK_5dNQSBikhChpdSPyti8OlP4wR7xxiF9_AEiAQx84k-sLjoy_PzRvQbzYL5j_h3BZKcc5v2S82H8KhFMAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAMFhK8H28S2v5ccKZB3h_j5LYzbQvRzP_yojLs-k48xQAiEA_9Fixx7Rw4PlO8ityPSdphChkiBSQNd5_Kbo3uL6PxA=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAMFhK8H28S2v5ccKZB3h_j5LYzbQvRzP_yojLs-k48xQAiEA_9Fixx7Rw4PlO8ityPSdphChkiBSQNd5_Kbo3uL6PxA=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,164, [DEBUG], finished descrambling signature for itag=137
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: KOAOq0QJ8wRQIgMSttw1H9Jr1bADuiWxbR_C5Dt0WuI=xzwIaDMs6IkG8CIQCVsoaNA9uNn5N2DMJ-VDDd20T0-UrL83a0aT-23MHMPQ=l
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgMSttw1H9Jr1bKDuiWxbR_C5Dt0WuI=xzwIaDMs6IkG8CIQCVsoaNA9uNn5N2DMJ-VDDd20T0-UrL83a0aT-23MHMPQ=l
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: l=QPMHM32-Ta0a38LrU-0T02dDDV-JMD2N5nNu9ANaosVCQIC8GkI6sMDaIwzx=IuW0tD5C_RbxWiuDKb1rJ9H1wttSMgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: ==QPMHM32-Ta0a38LrU-0T02dDDV-JMD2N5nNu9ANaosVCQIC8GkI6sMDaIwzxlIuW0tD5C_RbxWiuDKb1rJ9H1wttSMgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgMSttw1H9Jr1bKDuiWxbR_C5Dt0WuIlxzwIaDMs6IkG8CIQCVsoaNA9uNn5N2DMJ-VDDd20T0-UrL83a0aT-23MHMPQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgMSttw1H9Jr1bKDuiWxbR_C5Dt0WuIlxzwIaDMs6IkG8CIQCVsoaNA9uNn5N2DMJ-VDDd20T0-UrL83a0aT-23MHMPQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,164, [DEBUG], finished descrambling signature for itag=248
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: 3OAOq0QJ8wRAIgEQv3-lEIQQWPA2sEVKAczXdDCX_gvyvJm3nQz2aXMaYCIAtjNq6VNJMM2XGYazGkNjope3yxkAqDzkf5zNUoQUjw
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEQv3-lEIQQWP32sEVKAczXdDCX_gvyvJm3nQz2aXMaYCIAtjNq6VNJMM2XGYazGkNjope3yxkAqDzkf5zNUoQUjw
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,164, [DEBUG], applied transform function
+output: wjUQoUNz5fkzDqAkxy3epojNkGzaYGX2MMJNV6qNjtAICYaMXa2zQn3mJvyvg_XCDdXzcAKVEs23PWQQIEl-3vQEgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: XjUQoUNz5fkzDqAkxy3epojNkGzaYGX2MMJNV6qNjtAICYaMXa2zQn3mJvyvg_wCDdXzcAKVEs23PWQQIEl-3vQEgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgEQv3-lEIQQWP32sEVKAczXdDCw_gvyvJm3nQz2aXMaYCIAtjNq6VNJMM2XGYazGkNjope3yxkAqDzkf5zNUoQUjX
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgEQv3-lEIQQWP32sEVKAczXdDCw_gvyvJm3nQz2aXMaYCIAtjNq6VNJMM2XGYazGkNjope3yxkAqDzkf5zNUoQUjX
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,165, [DEBUG], finished descrambling signature for itag=399
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: gOAOq0QJ8wRAIgXu5EW-2U9US4AxyZbkHbDDrJC33H0UFewrp5spoAKm8CIF04_1FY3Inw61gJyoVcb_FdeInoWnLWstklfZdCxkYD
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgXu5EW-2U9US4gxyZbkHbDDrJC33H0UFewrp5spoAKm8CIF04_1FY3Inw61gJyoVcb_FdeInoWnLWstklfZdCxkYD
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: DYkxCdZflktsWLnWonIedF_bcVoyJg16wnI3YF1_40FIC8mKAops5prweFU0H33CJrDDbHkbZyxg4SU9U2-WE5uXgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: 3YkxCdZflktsWLnWonIedF_bcVoyJg16wnI3YF1_40FIC8mKAops5prweFU0H3DCJrDDbHkbZyxg4SU9U2-WE5uXgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgXu5EW-2U9US4gxyZbkHbDDrJCD3H0UFewrp5spoAKm8CIF04_1FY3Inw61gJyoVcb_FdeInoWnLWstklfZdCxkY3
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgXu5EW-2U9US4gxyZbkHbDDrJCD3H0UFewrp5spoAKm8CIF04_1FY3Inw61gJyoVcb_FdeInoWnLWstklfZdCxkY3
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,165, [DEBUG], finished descrambling signature for itag=136
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: SOAOq0QJ8wRQIgGbrpuUWLXZUhA9mt2SYT_Z01pnguz=3SfPToAkgxPdcCIQDVj4WeMIqsYS3hUUyS1Jj3V84xephL65NHVwUlqHw7Ig=g
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgGbrpuUWLXZUhS9mt2SYT_Z01pnguz=3SfPToAkgxPdcCIQDVj4WeMIqsYS3hUUyS1Jj3V84xephL65NHVwUlqHw7Ig=g
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: g=gI7wHqlUwVHN56Lhpex48V3jJ1SyUUh3SYsqIMeW4jVDQICcdPxgkAoTPfS3=zugnp10Z_TYS2tm9ShUZXLWUuprbGgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: ==gI7wHqlUwVHN56Lhpex48V3jJ1SyUUh3SYsqIMeW4jVDQICcdPxgkAoTPfS3gzugnp10Z_TYS2tm9ShUZXLWUuprbGgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgGbrpuUWLXZUhS9mt2SYT_Z01pnguzg3SfPToAkgxPdcCIQDVj4WeMIqsYS3hUUyS1Jj3V84xephL65NHVwUlqHw7Ig==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgGbrpuUWLXZUhS9mt2SYT_Z01pnguzg3SfPToAkgxPdcCIQDVj4WeMIqsYS3hUUyS1Jj3V84xephL65NHVwUlqHw7Ig==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,165, [DEBUG], finished descrambling signature for itag=247
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: kOAOq0QJ8wRQIhAI42VX0w8YFxAq8rUkY5XQjs0pDSM=d8pZnlyKfkA5pwAiAeIdymzYQ1ymwn3Xu5tTkTQxaD9gwtBQb0-o4ENQsWCg=j
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAI42VX0w8YFxkq8rUkY5XQjs0pDSM=d8pZnlyKfkA5pwAiAeIdymzYQ1ymwn3Xu5tTkTQxaD9gwtBQb0-o4ENQsWCg=j
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: j=gCWsQNE4o-0bQBtwg9DaxQTkTt5uX3nwmy1QYzmydIeAiAwp5AkfKylnZp8d=MSDp0sjQX5YkUr8qkxFY8w0XV24IAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,165, [DEBUG], applied transform function
+output: ==gCWsQNE4o-0bQBtwg9DaxQTkTt5uX3nwmy1QYzmydIeAiAwp5AkfKylnZp8djMSDp0sjQX5YkUr8qkxFY8w0XV24IAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAI42VX0w8YFxkq8rUkY5XQjs0pDSMjd8pZnlyKfkA5pwAiAeIdymzYQ1ymwn3Xu5tTkTQxaD9gwtBQb0-o4ENQsWCg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAI42VX0w8YFxkq8rUkY5XQjs0pDSMjd8pZnlyKfkA5pwAiAeIdymzYQ1ymwn3Xu5tTkTQxaD9gwtBQb0-o4ENQsWCg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,166, [DEBUG], finished descrambling signature for itag=398
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: ROAOq0QJ8wRQIhAMvJs2esQ5-MAVO4_zt9NGv-ekpjf=d_rSRNWu0zrrrWAiAVwrx51O5p_j51n9hFFIBw9yLaD86gqEmqwdBLn8DZ8Q=G
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMvJs2esQ5-MRVO4_zt9NGv-ekpjf=d_rSRNWu0zrrrWAiAVwrx51O5p_j51n9hFFIBw9yLaD86gqEmqwdBLn8DZ8Q=G
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: G=Q8ZD8nLBdwqmEqg68DaLy9wBIFFh9n15j_p5O15xrwVAiAWrrrz0uWNRSr_d=fjpke-vGN9tz_4OVRM-5Qse2sJvMAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: ==Q8ZD8nLBdwqmEqg68DaLy9wBIFFh9n15j_p5O15xrwVAiAWrrrz0uWNRSr_dGfjpke-vGN9tz_4OVRM-5Qse2sJvMAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAMvJs2esQ5-MRVO4_zt9NGv-ekpjfGd_rSRNWu0zrrrWAiAVwrx51O5p_j51n9hFFIBw9yLaD86gqEmqwdBLn8DZ8Q==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAMvJs2esQ5-MRVO4_zt9NGv-ekpjfGd_rSRNWu0zrrrWAiAVwrx51O5p_j51n9hFFIBw9yLaD86gqEmqwdBLn8DZ8Q==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,166, [DEBUG], finished descrambling signature for itag=135
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: COAOq0QJ8wRAIgaVBfbh77zvbVAXc5xrRK0kiUS0-eLqzS5zo0tOk9lYYCIBUx70zt3kxyGvftSspdacEvxIL2-C6M_Gsx4bHBIYtf
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgaVBfbh77zvbVCXc5xrRK0kiUS0-eLqzS5zo0tOk9lYYCIBUx70zt3kxyGvftSspdacEvxIL2-C6M_Gsx4bHBIYtf
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: ftYIBHb4xsG_M6C-2LIxvEcadpsStfvGyxk3tz07xUBICYYl9kOt0oz5SzqLe-0SUik0KRrx5cXCVbvz77hbfBVagIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: 0tYIBHb4xsG_M6C-2LIxvEcadpsStfvGyxk3tz07xUBICYYl9kOt0oz5SzqLe-fSUik0KRrx5cXCVbvz77hbfBVagIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgaVBfbh77zvbVCXc5xrRK0kiUSf-eLqzS5zo0tOk9lYYCIBUx70zt3kxyGvftSspdacEvxIL2-C6M_Gsx4bHBIYt0
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgaVBfbh77zvbVCXc5xrRK0kiUSf-eLqzS5zo0tOk9lYYCIBUx70zt3kxyGvftSspdacEvxIL2-C6M_Gsx4bHBIYt0
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,166, [DEBUG], finished descrambling signature for itag=244
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: 1OAOq0QJ8wRQIhANvQEgfKnVv3A8DoVtTIX3dTB_vgN=SWKjp9kSmpQcwUAiA8LSqMHoLttFdYEJVgH6O9injIV5ff2qQkFrHTMguIKQ=W
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANvQEgfKnVv318DoVtTIX3dTB_vgN=SWKjp9kSmpQcwUAiA8LSqMHoLttFdYEJVgH6O9injIV5ff2qQkFrHTMguIKQ=W
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: W=QKIugMTHrFkQq2ff5VIjni9O6HgVJEYdFttLoHMqSL8AiAUwcQpmSk9pjKWS=Ngv_BTd3XITtVoD813vVnKfgEQvNAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: ==QKIugMTHrFkQq2ff5VIjni9O6HgVJEYdFttLoHMqSL8AiAUwcQpmSk9pjKWSWNgv_BTd3XITtVoD813vVnKfgEQvNAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,166, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhANvQEgfKnVv318DoVtTIX3dTB_vgNWSWKjp9kSmpQcwUAiA8LSqMHoLttFdYEJVgH6O9injIV5ff2qQkFrHTMguIKQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhANvQEgfKnVv318DoVtTIX3dTB_vgNWSWKjp9kSmpQcwUAiA8LSqMHoLttFdYEJVgH6O9injIV5ff2qQkFrHTMguIKQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,167, [DEBUG], finished descrambling signature for itag=397
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: eOAOq0QJ8wRgIhAJRBWo2E9k0kAr5B2vKYunqB82gTt=rYhWiBWXiEzqQAAiEAkTDDdY4KAUiWBSzF7WDZcSflZ6pxTZiU7xFXOlMsN3I8
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJRBWo2E9k0ker5B2vKYunqB82gTt=rYhWiBWXiEzqQAAiEAkTDDdY4KAUiWBSzF7WDZcSflZ6pxTZiU7xFXOlMsN3I8
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: 8I3NsMlOXFx7UiZTxp6ZlfScZDW7FzSBWiUAK4YdDDTkAEiAAQqzEiXWBiWhYr=tTg28BqnuYKv2B5rek0k9E2oWBRJAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: =I3NsMlOXFx7UiZTxp6ZlfScZDW7FzSBWiUAK4YdDDTkAEiAAQqzEiXWBiWhYr8tTg28BqnuYKv2B5rek0k9E2oWBRJAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJRBWo2E9k0ker5B2vKYunqB82gTt8rYhWiBWXiEzqQAAiEAkTDDdY4KAUiWBSzF7WDZcSflZ6pxTZiU7xFXOlMsN3I=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAJRBWo2E9k0ker5B2vKYunqB82gTt8rYhWiBWXiEzqQAAiEAkTDDdY4KAUiWBSzF7WDZcSflZ6pxTZiU7xFXOlMsN3I=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,167, [DEBUG], finished descrambling signature for itag=134
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: BOAOq0QJ8wRQIgRlC2XOXil3kqA0VAsMbWKfeJFu70B=it0uJUHRxkSvQCIQChpX-CUtPioSxTj5UBuxlj7SOq0FBPQzS-eX6AF7hbyA=1
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRlC2XOXil3kqB0VAsMbWKfeJFu70B=it0uJUHRxkSvQCIQChpX-CUtPioSxTj5UBuxlj7SOq0FBPQzS-eX6AF7hbyA=1
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: 1=Aybh7FA6Xe-SzQPBF0qOS7jlxuBU5jTxSoiPtUC-XphCQICQvSkxRHUJu0ti=B07uFJefKWbMsAV0Bqk3liXOX2ClRgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: ==Aybh7FA6Xe-SzQPBF0qOS7jlxuBU5jTxSoiPtUC-XphCQICQvSkxRHUJu0ti1B07uFJefKWbMsAV0Bqk3liXOX2ClRgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRlC2XOXil3kqB0VAsMbWKfeJFu70B1it0uJUHRxkSvQCIQChpX-CUtPioSxTj5UBuxlj7SOq0FBPQzS-eX6AF7hbyA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgRlC2XOXil3kqB0VAsMbWKfeJFu70B1it0uJUHRxkSvQCIQChpX-CUtPioSxTj5UBuxlj7SOq0FBPQzS-eX6AF7hbyA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,167, [DEBUG], finished descrambling signature for itag=243
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: eOAOq0QJ8wRAIgKmoBx83a-DqXAmlASyMoLDVSU_8huCMgABUn-7_ADycCIDl92RWJjO-1-3akfGmXJLeMFt3BwzIAMXKxypqtBpAT
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgKmoBx83a-DqXemlASyMoLDVSU_8huCMgABUn-7_ADycCIDl92RWJjO-1-3akfGmXJLeMFt3BwzIAMXKxypqtBpAT
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: TApBtqpyxKXMAIzwB3tFMeLJXmGfka3-1-OjJWR29lDICcyDA_7-nUBAgMCuh8_USVDLoMySAlmeXqD-a38xBomKgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: _ApBtqpyxKXMAIzwB3tFMeLJXmGfka3-1-OjJWR29lDICcyDA_7-nUBAgMCuh8TUSVDLoMySAlmeXqD-a38xBomKgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,167, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgKmoBx83a-DqXemlASyMoLDVSUT8huCMgABUn-7_ADycCIDl92RWJjO-1-3akfGmXJLeMFt3BwzIAMXKxypqtBpA_
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgKmoBx83a-DqXemlASyMoLDVSUT8huCMgABUn-7_ADycCIDl92RWJjO-1-3akfGmXJLeMFt3BwzIAMXKxypqtBpA_
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,168, [DEBUG], finished descrambling signature for itag=396
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: uOAOq0QJ8wRAIgcaQmIRf-qH9-AltZH_bJLz-XIUk_wZJOByCcDVkRClwCIBTR8w7UmMovl8f83QKAW-gjT9WK0CFsGQdc1dUW1bvB
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgcaQmIRf-qH9-ultZH_bJLz-XIUk_wZJOByCcDVkRClwCIBTR8w7UmMovl8f83QKAW-gjT9WK0CFsGQdc1dUW1bvB
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: Bvb1WUd1cdQGsFC0KW9Tjg-WAKQ38f8lvoMmU7w8RTBICwlCRkVDcCyBOJZw_kUIX-zLJb_HZtlu-9Hq-fRImQacgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: Uvb1WUd1cdQGsFC0KW9Tjg-WAKQ38f8lvoMmU7w8RTBICwlCRkVDcCyBOJZw_kBIX-zLJb_HZtlu-9Hq-fRImQacgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgcaQmIRf-qH9-ultZH_bJLz-XIBk_wZJOByCcDVkRClwCIBTR8w7UmMovl8f83QKAW-gjT9WK0CFsGQdc1dUW1bvU
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgcaQmIRf-qH9-ultZH_bJLz-XIBk_wZJOByCcDVkRClwCIBTR8w7UmMovl8f83QKAW-gjT9WK0CFsGQdc1dUW1bvU
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,168, [DEBUG], finished descrambling signature for itag=133
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: xOAOq0QJ8wRAIgdg2_2DGpaJodAOi5EDfk-yuuPFuiRV4n5DzojngDCnoCIFNzFCOWlUww__ZQ0hTQyn1qkV0dwhl9-pev-aF7tFqM
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgdg2_2DGpaJodxOi5EDfk-yuuPFuiRV4n5DzojngDCnoCIFNzFCOWlUww__ZQ0hTQyn1qkV0dwhl9-pev-aF7tFqM
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: MqFt7Fa-vep-9lhwd0Vkq1nyQTh0QZ__wwUlWOCFzNFIConCDgnjozD5n4VRiuFPuuy-kfDE5iOxdoJapGD2_2gdgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: FqFt7Fa-vep-9lhwd0Vkq1nyQTh0QZ__wwUlWOCFzNFIConCDgnjozD5n4VRiuMPuuy-kfDE5iOxdoJapGD2_2gdgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgdg2_2DGpaJodxOi5EDfk-yuuPMuiRV4n5DzojngDCnoCIFNzFCOWlUww__ZQ0hTQyn1qkV0dwhl9-pev-aF7tFqF
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgdg2_2DGpaJodxOi5EDfk-yuuPMuiRV4n5DzojngDCnoCIFNzFCOWlUww__ZQ0hTQyn1qkV0dwhl9-pev-aF7tFqF
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,168, [DEBUG], finished descrambling signature for itag=242
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: gOAOq0QJ8wRgIhAJQAKfQNkR8EA6yxPczgcCpEZqz19=5J36VugpQFyO04AiEAiPzMva1hF2x_HVwlC5qLgi15ufkFEy-hzWNGPbhsE3Qq
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJQAKfQNkR8Eg6yxPczgcCpEZqz19=5J36VugpQFyO04AiEAiPzMva1hF2x_HVwlC5qLgi15ufkFEy-hzWNGPbhsE3Qq
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: qQ3EshbPGNWzh-yEFkfu51igLq5ClwVH_x2Fh1avMzPiAEiA40OyFQpguV63J5=91zqZEpCcgzcPxy6gE8RkNQfKAQJAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: =Q3EshbPGNWzh-yEFkfu51igLq5ClwVH_x2Fh1avMzPiAEiA40OyFQpguV63J5q91zqZEpCcgzcPxy6gE8RkNQfKAQJAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAJQAKfQNkR8Eg6yxPczgcCpEZqz19q5J36VugpQFyO04AiEAiPzMva1hF2x_HVwlC5qLgi15ufkFEy-hzWNGPbhsE3Q=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,168, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAJQAKfQNkR8Eg6yxPczgcCpEZqz19q5J36VugpQFyO04AiEAiPzMva1hF2x_HVwlC5qLgi15ufkFEy-hzWNGPbhsE3Q=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,169, [DEBUG], finished descrambling signature for itag=395
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: BOAOq0QJ8wRQIgZ1Grq1QOFfgzAZlMNm4rh18TUkbIn=wj_tQ88ng2sv0CIQDP1IlE-R7lk0-1b3hSQgaWzFVc3SVWwmoBxUfN2rI-jQ=p
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZ1Grq1QOFfgzBZlMNm4rh18TUkbIn=wj_tQ88ng2sv0CIQDP1IlE-R7lk0-1b3hSQgaWzFVc3SVWwmoBxUfN2rI-jQ=p
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: p=Qj-Ir2NfUxBomwWVS3cVFzWagQSh3b1-0kl7R-ElI1PDQIC0vs2gn88Qt_jw=nIbkUT81hr4mNMlZBzgfFOQ1qrG1ZgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: ==Qj-Ir2NfUxBomwWVS3cVFzWagQSh3b1-0kl7R-ElI1PDQIC0vs2gn88Qt_jwpnIbkUT81hr4mNMlZBzgfFOQ1qrG1ZgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgZ1Grq1QOFfgzBZlMNm4rh18TUkbInpwj_tQ88ng2sv0CIQDP1IlE-R7lk0-1b3hSQgaWzFVc3SVWwmoBxUfN2rI-jQ==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgZ1Grq1QOFfgzBZlMNm4rh18TUkbInpwj_tQ88ng2sv0CIQDP1IlE-R7lk0-1b3hSQgaWzFVc3SVWwmoBxUfN2rI-jQ==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,169, [DEBUG], finished descrambling signature for itag=160
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: 3OAOq0QJ8wRAIgRkzrHcawXKF2AplvW8Nyjji1X2itVBSVivLKXJ0VWgsCIEeQkTQBJQdeoB7iblqVO5TQmbWM4YHLQcdmp4B1kKLz
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgRkzrHcawXKF23plvW8Nyjji1X2itVBSVivLKXJ0VWgsCIEeQkTQBJQdeoB7iblqVO5TQmbWM4YHLQcdmp4B1kKLz
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: zLKk1B4pmdcQLHY4MWbmQT5OVqlbi7BoedQJBQTkQeEICsgWV0JXKLviVSBVti2X1ijjyN8Wvlp32FKXwacHrzkRgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: 2LKk1B4pmdcQLHY4MWbmQT5OVqlbi7BoedQJBQTkQeEICsgWV0JXKLviVSBVtizX1ijjyN8Wvlp32FKXwacHrzkRgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgRkzrHcawXKF23plvW8Nyjji1XzitVBSVivLKXJ0VWgsCIEeQkTQBJQdeoB7iblqVO5TQmbWM4YHLQcdmp4B1kKL2
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgRkzrHcawXKF23plvW8Nyjji1XzitVBSVivLKXJ0VWgsCIEeQkTQBJQdeoB7iblqVO5TQmbWM4YHLQcdmp4B1kKL2
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,169, [DEBUG], finished descrambling signature for itag=278
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: mOAOq0QJ8wRAIgWfvIBDbSOeskARC07g0mZL-dPfFb-4WDRi3cKVZoRzQCIC-YeB7mm-n3fXOrQobbGZSQRdYSmtktd1MOA3c6DZ6J
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgWfvIBDbSOeskmRC07g0mZL-dPfFb-4WDRi3cKVZoRzQCIC-YeB7mm-n3fXOrQobbGZSQRdYSmtktd1MOA3c6DZ6J
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: J6ZD6c3AOM1dtktmSYdRQSZGbboQrOXf3n-mm7BeY-CICQzRoZVKc3iRDW4-bFfPd-LZm0g70CRmkseOSbDBIvfWgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: f6ZD6c3AOM1dtktmSYdRQSZGbboQrOXf3n-mm7BeY-CICQzRoZVKc3iRDW4-bFJPd-LZm0g70CRmkseOSbDBIvfWgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgWfvIBDbSOeskmRC07g0mZL-dPJFb-4WDRi3cKVZoRzQCIC-YeB7mm-n3fXOrQobbGZSQRdYSmtktd1MOA3c6DZ6f
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,169, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgWfvIBDbSOeskmRC07g0mZL-dPJFb-4WDRi3cKVZoRzQCIC-YeB7mm-n3fXOrQobbGZSQRdYSmtktd1MOA3c6DZ6f
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,169, [DEBUG], finished descrambling signature for itag=394
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: uOAOq0QJ8wRQIhAKXAqtRPnfHMA9hmHFZegIPncgJQ6=UeVWIhkpJXIt3xAiBgEO6vIjMBl0S75KpUu2CCLhAFnCc_sG4dTATwR3C9yg=i
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAKXAqtRPnfHMu9hmHFZegIPncgJQ6=UeVWIhkpJXIt3xAiBgEO6vIjMBl0S75KpUu2CCLhAFnCc_sG4dTATwR3C9yg=i
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: i=gy9C3RwTATd4Gs_cCnFAhLCC2uUpK57S0lBMjIv6OEgBiAx3tIXJpkhIWVeU=6QJgcnPIgeZFHmh9uMHfnPRtqAXKAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: ==gy9C3RwTATd4Gs_cCnFAhLCC2uUpK57S0lBMjIv6OEgBiAx3tIXJpkhIWVeUi6QJgcnPIgeZFHmh9uMHfnPRtqAXKAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAKXAqtRPnfHMu9hmHFZegIPncgJQ6iUeVWIhkpJXIt3xAiBgEO6vIjMBl0S75KpUu2CCLhAFnCc_sG4dTATwR3C9yg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAKXAqtRPnfHMu9hmHFZegIPncgJQ6iUeVWIhkpJXIt3xAiBgEO6vIjMBl0S75KpUu2CCLhAFnCc_sG4dTATwR3C9yg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,170, [DEBUG], finished descrambling signature for itag=140
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRgIhAMvjHQHL8D-MAAgixru9Q3woDEorw=hjcBQKdNeesfbtAiEAiYq7AF1lmcztCxNCsrjBDX-DgC4lig_Z3R0mKwrqK5w-
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAMvjHQHL8D-M4Agixru9Q3woDEorw=hjcBQKdNeesfbtAiEAiYq7AF1lmcztCxNCsrjBDX-DgC4lig_Z3R0mKwrqK5w-
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: -w5KqrwKm0R3Z_gil4CgD-XDBjrsCNxCtzcml1FA7qYiAEiAtbfseeNdKQBcjh=wroEDow3Q9urxigA4M-D8LHQHjvMAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: =w5KqrwKm0R3Z_gil4CgD-XDBjrsCNxCtzcml1FA7qYiAEiAtbfseeNdKQBcjh-wroEDow3Q9urxigA4M-D8LHQHjvMAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAMvjHQHL8D-M4Agixru9Q3woDEorw-hjcBQKdNeesfbtAiEAiYq7AF1lmcztCxNCsrjBDX-DgC4lig_Z3R0mKwrqK5w=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAMvjHQHL8D-M4Agixru9Q3woDEorw-hjcBQKdNeesfbtAiEAiYq7AF1lmcztCxNCsrjBDX-DgC4lig_Z3R0mKwrqK5w=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,170, [DEBUG], finished descrambling signature for itag=249
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: iOAOq0QJ8wRQIhAJWkZol0C5fVAgd-p9LlDzJTaIwrR=jb0XuxRiZ5EnMuAiBvnEj5lzOltaCNzBkF7PwzRCtf9a-gqYZYaJossRTssg=U
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAJWkZol0C5fVigd-p9LlDzJTaIwrR=jb0XuxRiZ5EnMuAiBvnEj5lzOltaCNzBkF7PwzRCtf9a-gqYZYaJossRTssg=U
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: U=gssTRssoJaYZYqg-a9ftCRzwP7FkBzNCatlOzl5jEnvBiAuMnE5ZiRxuX0bj=RrwIaTJzDlL9p-dgiVf5C0loZkWJAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: ==gssTRssoJaYZYqg-a9ftCRzwP7FkBzNCatlOzl5jEnvBiAuMnE5ZiRxuX0bjURrwIaTJzDlL9p-dgiVf5C0loZkWJAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAJWkZol0C5fVigd-p9LlDzJTaIwrRUjb0XuxRiZ5EnMuAiBvnEj5lzOltaCNzBkF7PwzRCtf9a-gqYZYaJossRTssg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAJWkZol0C5fVigd-p9LlDzJTaIwrRUjb0XuxRiZ5EnMuAiBvnEj5lzOltaCNzBkF7PwzRCtf9a-gqYZYaJossRTssg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,170, [DEBUG], finished descrambling signature for itag=250
+pytube.cipher, 2021-06-19 21:07:04,170, [DEBUG], applied transform function
+output: XOAOq0QJ8wRgIhAON1IzkAzMHQAkU-Mes055O5qjGWX=0LTJiWDTNX7u-tAiEA5fRlO0PKsmlDv666bJwCyVgYG6PTD0frIhnx6HqoRFA5
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,171, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAON1IzkAzMHQXkU-Mes055O5qjGWX=0LTJiWDTNX7u-tAiEA5fRlO0PKsmlDv666bJwCyVgYG6PTD0frIhnx6HqoRFA5
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,171, [DEBUG], applied transform function
+output: 5AFRoqH6xnhIrf0DTP6GYgVyCwJb666vDlmsKP0OlRf5AEiAt-u7XNTDWiJTL0=XWGjq5O550seM-UkXQHMzAkzI1NOAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,171, [DEBUG], applied transform function
+output: =AFRoqH6xnhIrf0DTP6GYgVyCwJb666vDlmsKP0OlRf5AEiAt-u7XNTDWiJTL05XWGjq5O550seM-UkXQHMzAkzI1NOAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:04,171, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAON1IzkAzMHQXkU-Mes055O5qjGWX50LTJiWDTNX7u-tAiEA5fRlO0PKsmlDv666bJwCyVgYG6PTD0frIhnx6HqoRFA=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:04,171, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAON1IzkAzMHQXkU-Mes055O5qjGWX50LTJiWDTNX7u-tAiEA5fRlO0PKsmlDv666bJwCyVgYG6PTD0frIhnx6HqoRFA=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:04,171, [DEBUG], finished descrambling signature for itag=251
+pytube.streams, 2021-06-19 21:07:04,289, [DEBUG], downloading (11374443 total bytes) file to D:\06-Python Projects\PyVideoDownloader\downloads/Nice\Polyphia  GOAT (Official Music Video).mp4
+pytube.streams, 2021-06-19 21:07:08,267, [DEBUG], download remaining: 1937259
+pytube.streams, 2021-06-19 21:07:09,099, [DEBUG], download remaining: 0
+pytube.streams, 2021-06-19 21:07:09,099, [DEBUG], download finished
+pytube.helpers, 2021-06-19 21:07:09,247, [DEBUG], matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*
+pytube.extract, 2021-06-19 21:07:10,413, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:07:10,414, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:07:10,415, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:07:10,537, [DEBUG], applying descrambler
+pytube.extract, 2021-06-19 21:07:10,538, [DEBUG], finding initial function name
+pytube.extract, 2021-06-19 21:07:10,539, [DEBUG], Pattern failed: ytplayer\.config\s*=\s*
+pytube.extract, 2021-06-19 21:07:10,540, [DEBUG], Could not parse object.
+pytube.extract, 2021-06-19 21:07:10,581, [DEBUG], finished regex search, matched: (/s/player/[\w\d]+/[\w\d_/.]+/base\.js)
+pytube.cipher, 2021-06-19 21:07:10,581, [DEBUG], finding initial function name
+pytube.cipher, 2021-06-19 21:07:10,737, [DEBUG], finished regex search, matched: (?:\b|[^a-zA-Z0-9$])(?P<sig>[a-zA-Z0-9$]{2})\s*=\s*function\(\s*a\s*\)\s*{\s*a\s*=\s*a\.split\(\s*""\s*\)
+pytube.cipher, 2021-06-19 21:07:10,738, [DEBUG], getting transform plan
+pytube.helpers, 2021-06-19 21:07:10,738, [DEBUG], matched regex search: qB=function\(\w\){[a-z=\.\(\"\)]*;(.*);(?:.+)}
+pytube.cipher, 2021-06-19 21:07:10,738, [DEBUG], getting transform object
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], applied transform function
+output: mOAOq0QJ8wRgIhALSY1qDvB4oeAu_c1qGmNdOJuVSmw=4cH9zAHI8OMnm3AiEA61TQeN5iZ0w-KLa-bgrponxg1oCDl7YD_NBOse6BJCM3
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALSY1qDvB4oemu_c1qGmNdOJuVSmw=4cH9zAHI8OMnm3AiEA61TQeN5iZ0w-KLa-bgrponxg1oCDl7YD_NBOse6BJCM3
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], applied transform function
+output: 3MCJB6esOBN_DY7lDCo1gxnoprgb-aLK-w0Zi5NeQT16AEiA3mnMO8IHAz9Hc4=wmSVuJOdNmGq1c_umeo4BvDq1YSLAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,739, [DEBUG], applied transform function
+output: =MCJB6esOBN_DY7lDCo1gxnoprgb-aLK-w0Zi5NeQT16AEiA3mnMO8IHAz9Hc43wmSVuJOdNmGq1c_umeo4BvDq1YSLAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALSY1qDvB4oemu_c1qGmNdOJuVSmw34cH9zAHI8OMnm3AiEA61TQeN5iZ0w-KLa-bgrponxg1oCDl7YD_NBOse6BJCM=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], parsing transform function
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhALSY1qDvB4oemu_c1qGmNdOJuVSmw34cH9zAHI8OMnm3AiEA61TQeN5iZ0w-KLa-bgrponxg1oCDl7YD_NBOse6BJCM=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,740, [DEBUG], finished descrambling signature for itag=18
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: sOAOq0QJ8wRQIgRBDkjYAc1dIyAKH8JogEqSvehF6zv=vtLj2j19Q-oUYCIQDi8s_AXj7IEjoqqK083CqMi4YanRoH1q3ws0E9CP7JJA=h
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRBDkjYAc1dIysKH8JogEqSvehF6zv=vtLj2j19Q-oUYCIQDi8s_AXj7IEjoqqK083CqMi4YanRoH1q3ws0E9CP7JJA=h
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: h=AJJ7PC9E0sw3q1HoRnaY4iMqC380KqqojEI7jXA_s8iDQICYUo-Q91j2jLtv=vz6FhevSqEgoJ8HKsyId1cAYjkDBRgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: ==AJJ7PC9E0sw3q1HoRnaY4iMqC380KqqojEI7jXA_s8iDQICYUo-Q91j2jLtvhvz6FhevSqEgoJ8HKsyId1cAYjkDBRgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgRBDkjYAc1dIysKH8JogEqSvehF6zvhvtLj2j19Q-oUYCIQDi8s_AXj7IEjoqqK083CqMi4YanRoH1q3ws0E9CP7JJA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgRBDkjYAc1dIysKH8JogEqSvehF6zvhvtLj2j19Q-oUYCIQDi8s_AXj7IEjoqqK083CqMi4YanRoH1q3ws0E9CP7JJA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,740, [DEBUG], finished descrambling signature for itag=137
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: QOAOq0QJ8wRgIhAKC2gZkfuERUAFGIWWG-CcU3NWLgS=PUIBW-3CUqX5STAiEAr82Bt9gYtB2lc3HPigGT3sJTDplaY3RwzctroYlI454k
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKC2gZkfuERUQFGIWWG-CcU3NWLgS=PUIBW-3CUqX5STAiEAr82Bt9gYtB2lc3HPigGT3sJTDplaY3RwzctroYlI454k
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: k454IlYortczwR3YalpDTJs3TGgiPH3cl2BtYg9tB28rAEiATS5XqUC3-WBIUP=SgLWN3UcC-GWWIGFQUREufkZg2CKAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: =454IlYortczwR3YalpDTJs3TGgiPH3cl2BtYg9tB28rAEiATS5XqUC3-WBIUPkSgLWN3UcC-GWWIGFQUREufkZg2CKAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,740, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAKC2gZkfuERUQFGIWWG-CcU3NWLgSkPUIBW-3CUqX5STAiEAr82Bt9gYtB2lc3HPigGT3sJTDplaY3RwzctroYlI454=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAKC2gZkfuERUQFGIWWG-CcU3NWLgSkPUIBW-3CUqX5STAiEAr82Bt9gYtB2lc3HPigGT3sJTDplaY3RwzctroYlI454=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,741, [DEBUG], finished descrambling signature for itag=248
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: pOAOq0QJ8wRgIhAO95-Gvg523iAKKfqf90HTdWsC2Bv=kfjeaD3B5E7xVBAiEAnJYMIBnsJK92bpw1hqs-L09gqMu7m4EAjkerL6rKWz4p
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAO95-Gvg523ipKKfqf90HTdWsC2Bv=kfjeaD3B5E7xVBAiEAnJYMIBnsJK92bpw1hqs-L09gqMu7m4EAjkerL6rKWz4p
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: p4zWKr6LrekjAE4m7uMqg90L-sqh1wpb29KJsnBIMYJnAEiABVx7E5B3Daejfk=vB2CsWdTH09fqfKKpi325gvG-59OAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: =4zWKr6LrekjAE4m7uMqg90L-sqh1wpb29KJsnBIMYJnAEiABVx7E5B3DaejfkpvB2CsWdTH09fqfKKpi325gvG-59OAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAO95-Gvg523ipKKfqf90HTdWsC2BvpkfjeaD3B5E7xVBAiEAnJYMIBnsJK92bpw1hqs-L09gqMu7m4EAjkerL6rKWz4=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAO95-Gvg523ipKKfqf90HTdWsC2BvpkfjeaD3B5E7xVBAiEAnJYMIBnsJK92bpw1hqs-L09gqMu7m4EAjkerL6rKWz4=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,741, [DEBUG], finished descrambling signature for itag=399
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: eOAOq0QJ8wRQIhALuxrqc5zacyAmw7oez2QsVNF2nvZ=OpPlEwSHOEyL4GAiAza7_i7V2KeWNrpDdku5oHvlCY9NC1nCNO04nnfidVqw=Y
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALuxrqc5zacyemw7oez2QsVNF2nvZ=OpPlEwSHOEyL4GAiAza7_i7V2KeWNrpDdku5oHvlCY9NC1nCNO04nnfidVqw=Y
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: Y=wqVdifnn40ONCn1CN9YClvHo5ukdDprNWeK2V7i_7azAiAG4LyEOHSwElPpO=Zvn2FNVsQ2zeo7wmeycaz5cqrxuLAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: ==wqVdifnn40ONCn1CN9YClvHo5ukdDprNWeK2V7i_7azAiAG4LyEOHSwElPpOYZvn2FNVsQ2zeo7wmeycaz5cqrxuLAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALuxrqc5zacyemw7oez2QsVNF2nvZYOpPlEwSHOEyL4GAiAza7_i7V2KeWNrpDdku5oHvlCY9NC1nCNO04nnfidVqw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,741, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhALuxrqc5zacyemw7oez2QsVNF2nvZYOpPlEwSHOEyL4GAiAza7_i7V2KeWNrpDdku5oHvlCY9NC1nCNO04nnfidVqw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,742, [DEBUG], finished descrambling signature for itag=136
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: fOAOq0QJ8wRQIgTceQKH6_j5uLAkIlV8dfITngaJt_n=oQF28YgRtxh-cCIQCGt2YRNiXh8nBAuJ-CsUAkJo-_0iemgKrgpIqVWfN2rw=j
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTceQKH6_j5uLfkIlV8dfITngaJt_n=oQF28YgRtxh-cCIQCGt2YRNiXh8nBAuJ-CsUAkJo-_0iemgKrgpIqVWfN2rw=j
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: j=wr2NfWVqIpgrKgmei0_-oJkAUsC-JuABn8hXiNRY2tGCQICc-hxtRgY82FQo=n_tJagnTIfd8VlIkfLu5j_6HKQecTgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: ==wr2NfWVqIpgrKgmei0_-oJkAUsC-JuABn8hXiNRY2tGCQICc-hxtRgY82FQojn_tJagnTIfd8VlIkfLu5j_6HKQecTgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTceQKH6_j5uLfkIlV8dfITngaJt_njoQF28YgRtxh-cCIQCGt2YRNiXh8nBAuJ-CsUAkJo-_0iemgKrgpIqVWfN2rw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgTceQKH6_j5uLfkIlV8dfITngaJt_njoQF28YgRtxh-cCIQCGt2YRNiXh8nBAuJ-CsUAkJo-_0iemgKrgpIqVWfN2rw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,742, [DEBUG], finished descrambling signature for itag=247
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: eOAOq0QJ8wRgIhAP4zpHI4WbQ6AMJG0ce7xJTIoob9p=yfEp7vhmJJ3FDJAiEA3vepPKlYDgyOOcCIHVf6eOi8RLCIy6yu4bdP07q-zkYH
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAP4zpHI4WbQ6eMJG0ce7xJTIoob9p=yfEp7vhmJJ3FDJAiEA3vepPKlYDgyOOcCIHVf6eOi8RLCIy6yu4bdP07q-zkYH
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: HYkz-q70Pdb4uy6yICLR8iOe6fVHICcOOygDYlKPpev3AEiAJDF3JJmhv7pEfy=p9booITJx7ec0GJMe6QbW4IHpz4PAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: =Ykz-q70Pdb4uy6yICLR8iOe6fVHICcOOygDYlKPpev3AEiAJDF3JJmhv7pEfyHp9booITJx7ec0GJMe6QbW4IHpz4PAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAP4zpHI4WbQ6eMJG0ce7xJTIoob9pHyfEp7vhmJJ3FDJAiEA3vepPKlYDgyOOcCIHVf6eOi8RLCIy6yu4bdP07q-zkY=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAP4zpHI4WbQ6eMJG0ce7xJTIoob9pHyfEp7vhmJJ3FDJAiEA3vepPKlYDgyOOcCIHVf6eOi8RLCIy6yu4bdP07q-zkY=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,742, [DEBUG], finished descrambling signature for itag=398
+pytube.cipher, 2021-06-19 21:07:10,742, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRAIgSVclyKOO6iTLAa1mGUPn02qRZkolQylI6ylUuM5P4PYCIAT2xEh2PqWkAhZJvcbI4uzAdisUNmHKrNADlZkvakiR
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgSVclyKOO6iTL4a1mGUPn02qRZkolQylI6ylUuM5P4PYCIAT2xEh2PqWkAhZJvcbI4uzAdisUNmHKrNADlZkvakiR
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: RikavkZlDANrKHmNUsidAzu4IbcvJZhAkWqP2hEx2TAICYP4P5MuUly6IlyQlokZRq20nPUGm1a4LTi6OOKylcVSgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: kikavkZlDANrKHmNUsidAzu4IbcvJZhAkWqP2hEx2TAICYP4P5MuUly6IlyQloRZRq20nPUGm1a4LTi6OOKylcVSgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgSVclyKOO6iTL4a1mGUPn02qRZRolQylI6ylUuM5P4PYCIAT2xEh2PqWkAhZJvcbI4uzAdisUNmHKrNADlZkvakik
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgSVclyKOO6iTL4a1mGUPn02qRZRolQylI6ylUuM5P4PYCIAT2xEh2PqWkAhZJvcbI4uzAdisUNmHKrNADlZkvakik
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,743, [DEBUG], finished descrambling signature for itag=135
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: qOAOq0QJ8wRAIgHQdRJNS9AbsUAaPOoEDiPu2X-rrJOvTNkLScWx0aKKcCICdEYXHq_fjnKRyRA_NQkzK7zbpTJVFndsbwLym_FAP8
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgHQdRJNS9AbsUqaPOoEDiPu2X-rrJOvTNkLScWx0aKKcCICdEYXHq_fjnKRyRA_NQkzK7zbpTJVFndsbwLym_FAP8
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: 8PAF_myLwbsdnFVJTpbz7KzkQN_ARyRKnjf_qHXYEdCICcKKa0xWcSLkNTvOJrr-X2uPiDEoOPaqUsbA9SNJRdQHgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: rPAF_myLwbsdnFVJTpbz7KzkQN_ARyRKnjf_qHXYEdCICcKKa0xWcSLkNTvOJr8-X2uPiDEoOPaqUsbA9SNJRdQHgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgHQdRJNS9AbsUqaPOoEDiPu2X-8rJOvTNkLScWx0aKKcCICdEYXHq_fjnKRyRA_NQkzK7zbpTJVFndsbwLym_FAPr
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgHQdRJNS9AbsUqaPOoEDiPu2X-8rJOvTNkLScWx0aKKcCICdEYXHq_fjnKRyRA_NQkzK7zbpTJVFndsbwLym_FAPr
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,743, [DEBUG], finished descrambling signature for itag=244
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: KOAOq0QJ8wRAIgGu8NxP0cBDD3ApSCHqoDCzvQDnQ-0XoTgSRluH8ClocCIDypKMymL8IShNGTJyTV4HHdQ0Q27oNtkGHj20synNOZ
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgGu8NxP0cBDD3KpSCHqoDCzvQDnQ-0XoTgSRluH8ClocCIDypKMymL8IShNGTJyTV4HHdQ0Q27oNtkGHj20synNOZ
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: ZONnys02jHGktNo72Q0QdHH4VTyJTGNhSI8LmyMKpyDICcolC8HulRSgToX0-QnDQvzCDoqHCSpK3DDBc0PxN8uGgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,743, [DEBUG], applied transform function
+output: nONnys02jHGktNo72Q0QdHH4VTyJTGNhSI8LmyMKpyDICcolC8HulRSgToX0-QZDQvzCDoqHCSpK3DDBc0PxN8uGgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgGu8NxP0cBDD3KpSCHqoDCzvQDZQ-0XoTgSRluH8ClocCIDypKMymL8IShNGTJyTV4HHdQ0Q27oNtkGHj20synNOn
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgGu8NxP0cBDD3KpSCHqoDCzvQDZQ-0XoTgSRluH8ClocCIDypKMymL8IShNGTJyTV4HHdQ0Q27oNtkGHj20synNOn
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,744, [DEBUG], finished descrambling signature for itag=397
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: VOAOq0QJ8wRgIhALatIsDHIfW_AH_fMgfCoe7irrSmS=TmAK27hwNH12TfAiEA7T-DWtvmD12kQjFeHDpScgFJ3y_r1gpu-ykItcDakTAQ
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALatIsDHIfW_VH_fMgfCoe7irrSmS=TmAK27hwNH12TfAiEA7T-DWtvmD12kQjFeHDpScgFJ3y_r1gpu-ykItcDakTAQ
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: QATkaDctIky-upg1r_y3JFgcSpDHeFjQk21DmvtWD-T7AEiAfT21HNwh72KAmT=SmSrri7eoCfgMf_HV_WfIHDsItaLAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: =ATkaDctIky-upg1r_y3JFgcSpDHeFjQk21DmvtWD-T7AEiAfT21HNwh72KAmTQSmSrri7eoCfgMf_HV_WfIHDsItaLAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhALatIsDHIfW_VH_fMgfCoe7irrSmSQTmAK27hwNH12TfAiEA7T-DWtvmD12kQjFeHDpScgFJ3y_r1gpu-ykItcDakTA=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhALatIsDHIfW_VH_fMgfCoe7irrSmSQTmAK27hwNH12TfAiEA7T-DWtvmD12kQjFeHDpScgFJ3y_r1gpu-ykItcDakTA=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,744, [DEBUG], finished descrambling signature for itag=134
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: mOAOq0QJ8wRAIgPezFa__psUdHAM8KFI1khey1nnyEu-Y07k4yUSuxeyECIBtLVpUB96zlAVAvGUjxAOdShir4X7wgLZ7BUB2AYp5S
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgPezFa__psUdHmM8KFI1khey1nnyEu-Y07k4yUSuxeyECIBtLVpUB96zlAVAvGUjxAOdShir4X7wgLZ7BUB2AYp5S
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: S5pYA2BUB7ZLgw7X4rihSdOAxjUGvAVAlz69BUpVLtBICEyexuSUy4k70Y-uEynn1yehk1IFK8MmHdUsp__aFzePgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: n5pYA2BUB7ZLgw7X4rihSdOAxjUGvAVAlz69BUpVLtBICEyexuSUy4k70Y-uEySn1yehk1IFK8MmHdUsp__aFzePgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgPezFa__psUdHmM8KFI1khey1nSyEu-Y07k4yUSuxeyECIBtLVpUB96zlAVAvGUjxAOdShir4X7wgLZ7BUB2AYp5n
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,744, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgPezFa__psUdHmM8KFI1khey1nSyEu-Y07k4yUSuxeyECIBtLVpUB96zlAVAvGUjxAOdShir4X7wgLZ7BUB2AYp5n
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,745, [DEBUG], finished descrambling signature for itag=243
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: TOAOq0QJ8wRgIhANMhSrE-Rz2aAGbcikd2RVUeyR0SF=wgaCXPmtCUbFCIAiEAzTt3hDq26dE09X-8bmWLa_8KiKk4RqFT9i3E5sY8MXEq
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhANMhSrE-Rz2aTGbcikd2RVUeyR0SF=wgaCXPmtCUbFCIAiEAzTt3hDq26dE09X-8bmWLa_8KiKk4RqFT9i3E5sY8MXEq
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: qEXM8Ys5E3i9TFqR4kKiK8_aLWmb8-X90Ed62qDh3tTzAEiAICFbUCtmPXCagw=FS0RyeUVR2dkicbGTa2zR-ErShMNAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: =EXM8Ys5E3i9TFqR4kKiK8_aLWmb8-X90Ed62qDh3tTzAEiAICFbUCtmPXCagwqFS0RyeUVR2dkicbGTa2zR-ErShMNAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhANMhSrE-Rz2aTGbcikd2RVUeyR0SFqwgaCXPmtCUbFCIAiEAzTt3hDq26dE09X-8bmWLa_8KiKk4RqFT9i3E5sY8MXE=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhANMhSrE-Rz2aTGbcikd2RVUeyR0SFqwgaCXPmtCUbFCIAiEAzTt3hDq26dE09X-8bmWLa_8KiKk4RqFT9i3E5sY8MXE=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,745, [DEBUG], finished descrambling signature for itag=396
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: BOAOq0QJ8wRQIhAJ_fX2P8COc5A0nOjSSZ7kLdb5a_1=8hNe8fo7C3BgwtAiA7f7LmKA9npnJzberd9KyoNtim9b3RSED9N2tX7N7gww=s
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAJ_fX2P8COc5B0nOjSSZ7kLdb5a_1=8hNe8fo7C3BgwtAiA7f7LmKA9npnJzberd9KyoNtim9b3RSED9N2tX7N7gww=s
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: s=wwg7N7Xt2N9DESR3b9mitNoyK9drebzJnpn9AKmL7f7AiAtwgB3C7of8eNh8=1_a5bdLk7ZSSjOn0B5cOC8P2Xf_JAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: ==wwg7N7Xt2N9DESR3b9mitNoyK9drebzJnpn9AKmL7f7AiAtwgB3C7of8eNh8s1_a5bdLk7ZSSjOn0B5cOC8P2Xf_JAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAJ_fX2P8COc5B0nOjSSZ7kLdb5a_1s8hNe8fo7C3BgwtAiA7f7LmKA9npnJzberd9KyoNtim9b3RSED9N2tX7N7gww==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAJ_fX2P8COc5B0nOjSSZ7kLdb5a_1s8hNe8fo7C3BgwtAiA7f7LmKA9npnJzberd9KyoNtim9b3RSED9N2tX7N7gww==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,745, [DEBUG], finished descrambling signature for itag=133
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: SOAOq0QJ8wRQIhALJOD9KTeqedA9UtnjltSENVyYNih=644zdEJzFdo3JzAiAw6lae4v8iHC63aN2l2-4IB6b1FDRocdPRt1GnZyQJLw=T
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,745, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALJOD9KTeqedS9UtnjltSENVyYNih=644zdEJzFdo3JzAiAw6lae4v8iHC63aN2l2-4IB6b1FDRocdPRt1GnZyQJLw=T
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: T=wLJQyZnG1tRPdcoRDF1b6BI4-2l2Na36CHi8v4eal6wAiAzJ3odFzJEdz446=hiNYyVNEStljntU9SdeqeTK9DOJLAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: ==wLJQyZnG1tRPdcoRDF1b6BI4-2l2Na36CHi8v4eal6wAiAzJ3odFzJEdz446ThiNYyVNEStljntU9SdeqeTK9DOJLAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhALJOD9KTeqedS9UtnjltSENVyYNihT644zdEJzFdo3JzAiAw6lae4v8iHC63aN2l2-4IB6b1FDRocdPRt1GnZyQJLw==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhALJOD9KTeqedS9UtnjltSENVyYNihT644zdEJzFdo3JzAiAw6lae4v8iHC63aN2l2-4IB6b1FDRocdPRt1GnZyQJLw==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,746, [DEBUG], finished descrambling signature for itag=242
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: DOAOq0QJ8wRQIhAIHtLSlkKizQAUbSls9h5X3y1oWmF=ktW8kwea_az9dIAiB-vSlTKYArEYZsI3UYiZ4N_ZVGjzaPHBZbjSnkyZX5aA=e
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIHtLSlkKizQDUbSls9h5X3y1oWmF=ktW8kwea_az9dIAiB-vSlTKYArEYZsI3UYiZ4N_ZVGjzaPHBZbjSnkyZX5aA=e
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: e=Aa5XZyknSjbZBHPazjGVZ_N4ZiYU3IsZYErAYKTlSv-BiAId9za_aewk8Wtk=FmWo1y3X5h9slSbUDQziKklSLtHIAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: ==Aa5XZyknSjbZBHPazjGVZ_N4ZiYU3IsZYErAYKTlSv-BiAId9za_aewk8WtkeFmWo1y3X5h9slSbUDQziKklSLtHIAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAIHtLSlkKizQDUbSls9h5X3y1oWmFektW8kwea_az9dIAiB-vSlTKYArEYZsI3UYiZ4N_ZVGjzaPHBZbjSnkyZX5aA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAIHtLSlkKizQDUbSls9h5X3y1oWmFektW8kwea_az9dIAiB-vSlTKYArEYZsI3UYiZ4N_ZVGjzaPHBZbjSnkyZX5aA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,746, [DEBUG], finished descrambling signature for itag=395
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: aOAOq0QJ8wRgIhAIkhlszPhG34ARPSbzqPtZoketFHB=zfQduZz5cP2a7lAiEA0uxebMk01UjVHup4eJoCbcNxIz08QuqUNWyqlupFA5k6
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAIkhlszPhG34aRPSbzqPtZoketFHB=zfQduZz5cP2a7lAiEA0uxebMk01UjVHup4eJoCbcNxIz08QuqUNWyqlupFA5k6
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: 6k5AFpulqyWNUquQ80zIxNcbCoJe4puHVjU10kMbexu0AEiAl7a2Pc5zZudQfz=BHFtekoZtPqzbSPRa43GhPzslhkIAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: =k5AFpulqyWNUquQ80zIxNcbCoJe4puHVjU10kMbexu0AEiAl7a2Pc5zZudQfz6BHFtekoZtPqzbSPRa43GhPzslhkIAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,746, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAIkhlszPhG34aRPSbzqPtZoketFHB6zfQduZz5cP2a7lAiEA0uxebMk01UjVHup4eJoCbcNxIz08QuqUNWyqlupFA5k=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAIkhlszPhG34aRPSbzqPtZoketFHB6zfQduZz5cP2a7lAiEA0uxebMk01UjVHup4eJoCbcNxIz08QuqUNWyqlupFA5k=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,747, [DEBUG], finished descrambling signature for itag=160
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: 9OAOq0QJ8wRgIhAL5AdRQl8b39ApGukDeKy9BajEryh=WNVOaYtuXBrTaNAiEAzLEhxB5tt-BE2kOiLBl1CHSgG0zqZtmZzWpe11PSYdIJ
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAL5AdRQl8b399pGukDeKy9BajEryh=WNVOaYtuXBrTaNAiEAzLEhxB5tt-BE2kOiLBl1CHSgG0zqZtmZzWpe11PSYdIJ
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: JIdYSP11epWzZmtZqz0GgSHC1lBLiOk2EB-tt5BxhELzAEiANaTrBXutYaOVNW=hyrEjaB9yKeDkuGp993b8lQRdA5LAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: =IdYSP11epWzZmtZqz0GgSHC1lBLiOk2EB-tt5BxhELzAEiANaTrBXutYaOVNWJhyrEjaB9yKeDkuGp993b8lQRdA5LAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAL5AdRQl8b399pGukDeKy9BajEryhJWNVOaYtuXBrTaNAiEAzLEhxB5tt-BE2kOiLBl1CHSgG0zqZtmZzWpe11PSYdI=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAL5AdRQl8b399pGukDeKy9BajEryhJWNVOaYtuXBrTaNAiEAzLEhxB5tt-BE2kOiLBl1CHSgG0zqZtmZzWpe11PSYdI=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,747, [DEBUG], finished descrambling signature for itag=278
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: 4OAOq0QJ8wRQIhAKP2nekgN0RXAU-sCOm5l2dImbOPH=NtVjVUzRXKpg91AiBl0paXaOMOyp_rG80pG0ufp8loEM0vQ4hNksc6lU6Z5w=b
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAKP2nekgN0RX4U-sCOm5l2dImbOPH=NtVjVUzRXKpg91AiBl0paXaOMOyp_rG80pG0ufp8loEM0vQ4hNksc6lU6Z5w=b
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: b=w5Z6Ul6cskNh4Qv0MEol8pfu0Gp08Gr_pyOMOaXap0lBiA19gpKXRzUVjVtN=HPObmId2l5mOCs-U4XR0Ngken2PKAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: ==w5Z6Ul6cskNh4Qv0MEol8pfu0Gp08Gr_pyOMOaXap0lBiA19gpKXRzUVjVtNbHPObmId2l5mOCs-U4XR0Ngken2PKAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAKP2nekgN0RX4U-sCOm5l2dImbOPHbNtVjVUzRXKpg91AiBl0paXaOMOyp_rG80pG0ufp8loEM0vQ4hNksc6lU6Z5w==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAKP2nekgN0RX4U-sCOm5l2dImbOPHbNtVjVUzRXKpg91AiBl0paXaOMOyp_rG80pG0ufp8loEM0vQ4hNksc6lU6Z5w==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,747, [DEBUG], finished descrambling signature for itag=394
+pytube.cipher, 2021-06-19 21:07:10,747, [DEBUG], applied transform function
+output: cOAOq0QJ8wRAIgKgwzZLYOB4sZAtdosf8qZsKkro5dUczhC_YY8mJtZUUCIAfMAQthdV6ZgPcxJX48s4_xcPd5X96ZSfgdJl5-t91x
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgKgwzZLYOB4sZctdosf8qZsKkro5dUczhC_YY8mJtZUUCIAfMAQthdV6ZgPcxJX48s4_xcPd5X96ZSfgdJl5-t91x
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: x19t-5lJdgfSZ69X5dPcx_4s84XJxcPgZ6VdhtQAMfAICUUZtJm8YY_ChzcUd5orkKsZq8fsodtcZs4BOYLZzwgKgIARw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: o19t-5lJdgfSZ69X5dPcx_4s84XJxcPgZ6VdhtQAMfAICUUZtJm8YY_ChzcUd5xrkKsZq8fsodtcZs4BOYLZzwgKgIARw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRAIgKgwzZLYOB4sZctdosf8qZsKkrx5dUczhC_YY8mJtZUUCIAfMAQthdV6ZgPcxJX48s4_xcPd5X96ZSfgdJl5-t91o
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOq0QJ8wRAIgKgwzZLYOB4sZctdosf8qZsKkrx5dUczhC_YY8mJtZUUCIAfMAQthdV6ZgPcxJX48s4_xcPd5X96ZSfgdJl5-t91o
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,748, [DEBUG], finished descrambling signature for itag=140
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: zOAOq0QJ8wRgIhAPQVRrFtl-jHA-7KNBoWjkPXtV3z7=5o47--gq3nKWirAiEAjn3RonTmsMLdcfPlth6PiWz_GWXhCcnwGxhYXZbukKgI
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAPQVRrFtl-jHz-7KNBoWjkPXtV3z7=5o47--gq3nKWirAiEAjn3RonTmsMLdcfPlth6PiWz_GWXhCcnwGxhYXZbukKgI
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: IgKkubZXYhxGwncChXWG_zWiP6htlPfcdLMsmTnoR3njAEiAriWKn3qg--74o5=7z3VtXPkjWoBNK7-zHj-ltFrRVQPAhIgRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: =gKkubZXYhxGwncChXWG_zWiP6htlPfcdLMsmTnoR3njAEiAriWKn3qg--74o5I7z3VtXPkjWoBNK7-zHj-ltFrRVQPAhIgRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRgIhAPQVRrFtl-jHz-7KNBoWjkPXtV3z7I5o47--gq3nKWirAiEAjn3RonTmsMLdcfPlth6PiWz_GWXhCcnwGxhYXZbukKg=
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOq0QJ8wRgIhAPQVRrFtl-jHz-7KNBoWjkPXtV3z7I5o47--gq3nKWirAiEAjn3RonTmsMLdcfPlth6PiWz_GWXhCcnwGxhYXZbukKg=
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,748, [DEBUG], finished descrambling signature for itag=249
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: 5OAOq0QJ8wRQIgTxrgKiveV-UzAde0JaTdaMCQfiF8m=k47nIuCnasqssCIQCFvE3B2bKVw4AzjsyVUyiJFbDy4XgI5jHx9Q0VfooPhA=P
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTxrgKiveV-Uz5de0JaTdaMCQfiF8m=k47nIuCnasqssCIQCFvE3B2bKVw4AzjsyVUyiJFbDy4XgI5jHx9Q0VfooPhA=P
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: P=AhPoofV0Q9xHj5IgX4yDbFJiyUVysjzA4wVKb2B3EvFCQICssqsanCuIn74k=m8FifQCMadTaJ0ed5zU-VeviKgrxTgIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: ==AhPoofV0Q9xHj5IgX4yDbFJiyUVysjzA4wVKb2B3EvFCQICssqsanCuIn74kPm8FifQCMadTaJ0ed5zU-VeviKgrxTgIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,748, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIgTxrgKiveV-Uz5de0JaTdaMCQfiF8mPk47nIuCnasqssCIQCFvE3B2bKVw4AzjsyVUyiJFbDy4XgI5jHx9Q0VfooPhA==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: AOq0QJ8wRQIgTxrgKiveV-Uz5de0JaTdaMCQfiF8mPk47nIuCnasqssCIQCFvE3B2bKVw4AzjsyVUyiJFbDy4XgI5jHx9Q0VfooPhA==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,749, [DEBUG], finished descrambling signature for itag=250
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: 2OAOq0QJ8wRQIhAI3AeXUsyQNyAg6ICwiHr8PzksTHf=G5rxm3ncyPruFgAiBt38RN3I3Sihl_DiDypkHqCUuXpvrLZUwf3L1HTt1_sg=J
+js_function: rI
+argument: 49
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAI3AeXUsyQNy2g6ICwiHr8PzksTHf=G5rxm3ncyPruFgAiBt38RN3I3Sihl_DiDypkHqCUuXpvrLZUwf3L1HTt1_sg=J
+js_function: rI
+argument: 26
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: J=gs_1tTH1L3fwUZLrvpXuUCqHkpyDiD_lhiS3I3NR83tBiAgFurPycn3mxr5G=fHTskzP8rHiwCI6g2yNQysUXeA3IAhIQRw8JQ0qOAOA
+js_function: cr
+argument: 76
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: ==gs_1tTH1L3fwUZLrvpXuUCqHkpyDiD_lhiS3I3NR83tBiAgFurPycn3mxr5GJfHTskzP8rHiwCI6g2yNQysUXeA3IAhIQRw8JQ0qOAOA
+js_function: rI
+argument: 62
+function: <function swap at 0x0000029F68701DC0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: AOAOq0QJ8wRQIhAI3AeXUsyQNy2g6ICwiHr8PzksTHfJG5rxm3ncyPruFgAiBt38RN3I3Sihl_DiDypkHqCUuXpvrLZUwf3L1HTt1_sg==
+js_function: cr
+argument: 59
+function: <function reverse at 0x0000029F68701CA0>
+pytube.cipher, 2021-06-19 21:07:10,749, [DEBUG], applied transform function
+output: AOq0QJ8wRQIhAI3AeXUsyQNy2g6ICwiHr8PzksTHfJG5rxm3ncyPruFgAiBt38RN3I3Sihl_DiDypkHqCUuXpvrLZUwf3L1HTt1_sg==
+js_function: UA
+argument: 2
+function: <function splice at 0x0000029F68701D30>
+pytube.extract, 2021-06-19 21:07:10,749, [DEBUG], finished descrambling signature for itag=251
+pytube.streams, 2021-06-19 21:07:10,882, [DEBUG], downloading (17435517 total bytes) file to D:\06-Python Projects\PyVideoDownloader\downloads/Nice\Bring Me The Horizon - Happy Song (Live at the Royal Albert Hall).mp4
+pytube.streams, 2021-06-19 21:10:11,725, [DEBUG], download remaining: 7998333
