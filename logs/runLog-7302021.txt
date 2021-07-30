@@ -1,0 +1,1 @@
+[DEBUG], pytube.helpers, 2021-07-30 14:18:13,750, matched regex search: (?:v=|\/)([0-9A-Za-z_-]{11}).*

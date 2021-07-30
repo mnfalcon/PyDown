@@ -124,12 +124,12 @@ def toggleConsole():
 
 while True:
     event, values = window.read(timeout=100)
-    # outputPath = values['outputDisplay']
+    outputPath = values['outputDisplay']
     if event == sg.WIN_CLOSED or event == 'Exit' or event == sg.WIN_X_EVENT:
         break
     
     try:
-        outputPath = values['outputDisplay']
+        # outputPath = values['outputDisplay']
         videoURL = values['videoURL']
         if event == 'Download MP3':
             threading.Thread(target=downloadMP3(videoURL, outputPath, values['custom_name'])).start()
@@ -152,7 +152,7 @@ while True:
     except Exception as exc:
         print(exc)
         time = strftime('%d-%b-%Y', gmtime())
-        hour = strftime('%H-%M-%S', gmtime)
+        hour = strftime('%H-%M-%S', gmtime())
         if not os.path.exists('logs'):
             os.makedirs('logs')
         dump = open('logs/{}.txt'.format(time), 'a')
