@@ -4,3 +4,5 @@ build/
 downloads/
 tests/
 run_log.txt
+runLog.txt
+downloadHistory.txt
