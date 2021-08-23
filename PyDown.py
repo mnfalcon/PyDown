@@ -78,7 +78,7 @@ def downloadMP3(url, dir='undefined', outputName=''):
         yt.streams.get_audio_only().download(output_path=outputPath, filename = fileName, max_retries=10)
         print('YouTube audio downloaded successfully. {} : {} | at {}'.format(fileName, url, outputPath))
     
-        mp4File = outputPath + '/' + fileName + '.mp4'
+        mp4File = outputPath + '/' + fileName #+ '.mp4' # commenting this part for now
         mp3File = outputPath + '/' + fileName + '.mp3'
         os.rename(mp4File, mp3File)
         print('File renamed successfully.')
