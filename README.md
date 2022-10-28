@@ -7,7 +7,7 @@ A simple **windows** app to download YouTube videos
 - Cx_freeze
 
 # How to use (read further below if you wish to freeze it aka have it as an .exe)
-Have PyDown.py and basicLogger.py in the same folder, run PyDown.py with Python 3.5.
+Make sure you've installed PyTube and PySimpleGUI. Have PyDown.py and basicLogger.py in the same folder, run PyDown.py with Python 3.5.
 
 # How to use as an app
 ### - First you should have installed the above mentioned libraries.
