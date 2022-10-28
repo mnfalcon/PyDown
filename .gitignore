@@ -7,3 +7,4 @@ run_log.txt
 runLog.txt
 downloadHistory.txt
 logs/
+__pycache__/

@@ -20,7 +20,7 @@ layout = [
     [sg.Text('Output Path: '), sg.InputText(key='outputDisplay', default_text='downloads'), sg.FolderBrowse(key='outputDir', target='outputDisplay'), sg.Button('Reset Output Path',key='Reset'), sg.Button('Download History'), sg.Button('Open Download Directory')],
     [sg.Text('YouTube video URL: '), sg.InputText(key='videoURL'), sg.Button('Clear URL'), sg.Text('Output Name (optional)', tooltip='Use this if there are any weird characters'), sg.InputText(key='custom_name')], 
     [sg.Button('Download MP3'), sg.Button('Download Video'), sg.Button(button_text='Toggle Debug Console', key='debug'), 
-    sg.Button('Download Playlist'), sg.Text('as'), sg.Checkbox('MP3', key='checkbox_mp3', default=True, size=(6,6),tooltip='If true, playlist will be downloaded as mp3. Else, as mp4')],
+    sg.Button('Download Playlist'), sg.Text('download PlayList as'), sg.Checkbox('MP3', key='checkbox_mp3', default=True, size=(6,6),tooltip='If true, playlist will be downloaded as mp3. Else, as mp4')],
     [sg.Output(size=(141,10), key='log', visible=True)],
     [sg.Text('Download progress'), sg.ProgressBar(100, orientation='h', size=(20,20), key='progressBar'), sg.Text(' '*147), sg.Cancel(button_text='Exit', size=(6,1))]
     ]
@@ -99,6 +99,10 @@ def downloadVideo(url, dir='undefined', outputName=''):
         fileName = removeSpecialChars(videoTitle)
         yt.streams.get_highest_resolution().download(output_path=outputPath, filename=fileName, max_retries=10)
         print('YouTube video downloaded successfully. {} : {} | at {}'.format(fileName, url, outputPath))
+        mp4File = outputPath + '/' + fileName
+        print(fileName)
+        print(mp4File)
+        os.rename(mp4File, outputPath + '/' + fileName + '.mp4')
     except Exception as e:
         print(e)
     saveHistory(url, fileName)
