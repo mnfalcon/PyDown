@@ -126,42 +126,44 @@ def toggleConsole():
     else:
         window['log'].update(visible=False)
 
-while True:
-    event, values = window.read(timeout=100)
-    outputPath = values['outputDisplay']
-    if event == sg.WIN_CLOSED or event == 'Exit' or event == sg.WIN_X_EVENT:
-        break
-    
-    try:
-        # outputPath = values['outputDisplay']
-        videoURL = values['videoURL']
-        if event == 'Download MP3':
-            threading.Thread(target=downloadMP3(videoURL, outputPath, values['custom_name'])).start()
-        elif event == 'Download Video':
-            threading.Thread(target=downloadVideo(videoURL, outputPath, values['custom_name'])).start()
-        elif event == 'Download Playlist':
-            threading.Thread(target=downloadPlaylist(videoURL, values['checkbox_mp3'], outputPath)).start()
-        elif event == 'debug':
-            toggleConsole()
-        elif event == 'Run':
-            logging.info('Running')
-        elif event == 'Clear URL':
-            window['videoURL']('')
-        elif event == 'Reset':
-            window['outputDisplay']('downloads')
-        elif event == 'Download History':
-            threading.Thread(target=openDownloadHistory).start()
-        elif event == 'Open Download Directory':
-            threading.Thread(target=openDownloadDirectory(outputPath)).start()
-    except Exception as exc:
-        print(exc)
-        time = strftime('%d-%b-%Y', gmtime())
-        hour = strftime('%H-%M-%S', gmtime())
-        if not os.path.exists('logs'):
-            os.makedirs('logs')
-        dump = open('logs/{}.txt'.format(time), 'a')
-        dump.write('{} | {} \n'.format(hour, exc))
-        dump.close()
-      
-window.close()
-downloadHistory.close()
+if __name__ == "__main__":
+
+    while True:
+        event, values = window.read(timeout=100)
+        outputPath = values['outputDisplay']
+        if event == sg.WIN_CLOSED or event == 'Exit' or event == sg.WIN_X_EVENT:
+            break
+        
+        try:
+            # outputPath = values['outputDisplay']
+            videoURL = values['videoURL']
+            if event == 'Download MP3':
+                threading.Thread(target=downloadMP3(videoURL, outputPath, values['custom_name'])).start()
+            elif event == 'Download Video':
+                threading.Thread(target=downloadVideo(videoURL, outputPath, values['custom_name'])).start()
+            elif event == 'Download Playlist':
+                threading.Thread(target=downloadPlaylist(videoURL, values['checkbox_mp3'], outputPath)).start()
+            elif event == 'debug':
+                toggleConsole()
+            elif event == 'Run':
+                logging.info('Running')
+            elif event == 'Clear URL':
+                window['videoURL']('')
+            elif event == 'Reset':
+                window['outputDisplay']('downloads')
+            elif event == 'Download History':
+                threading.Thread(target=openDownloadHistory).start()
+            elif event == 'Open Download Directory':
+                threading.Thread(target=openDownloadDirectory(outputPath)).start()
+        except Exception as exc:
+            print(exc)
+            time = strftime('%d-%b-%Y', gmtime())
+            hour = strftime('%H-%M-%S', gmtime())
+            if not os.path.exists('logs'):
+                os.makedirs('logs')
+            dump = open('logs/{}.txt'.format(time), 'a')
+            dump.write('{} | {} \n'.format(hour, exc))
+            dump.close()
+        
+    window.close()
+    downloadHistory.close()

@@ -8,3 +8,4 @@ runLog.txt
 downloadHistory.txt
 logs/
 __pycache__/
+.fleet/
